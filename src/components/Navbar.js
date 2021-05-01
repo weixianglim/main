@@ -4,6 +4,11 @@ import { Button } from "./Button"
 import "./Navbar.css"
 import NavLink from "./NavLink"
 
+// Importing icons..
+import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
+
 // Importing assets...
 import ResumePdf from "../WeiXiangLim_Resume.pdf"
 
@@ -37,7 +42,8 @@ const Navbar = (props) =>
 
                     {/* Menu toggling button for mobile */}
                     <div className="nav-menu-icon" onClick={toggleNavMenu}>
-                        <i className={navMenuActive ? "fas fa-times" : "fas fa-bars"}/>
+                        {/* <i className={navMenuActive ? "fas fa-times" : "fas fa-bars"}/> */}
+                        <FontAwesomeIcon icon={navMenuActive ? faTimes : faBars}/>
                     </div>
 
                     {/* List of navigation routes */}

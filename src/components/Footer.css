@@ -27,9 +27,10 @@
 }
 
 .footer-email-text {
-    margin-bottom: 24px;
+    margin: 0px 24px 24px 24px;
     font-size: 15px;
     color: rgb(182, 180, 180);
+    max-width: 350px;
 }
 
 .footer-input, .footer-input-message {
@@ -169,7 +170,7 @@ form .btn {
     }
 
     .footer-input, .footer-input-message {
-        width: 350px;
+        width: 280px;
     }
 
     .footer-link-wrapper {
@@ -178,5 +179,14 @@ form .btn {
 
     .social-media-wrap {
         flex-direction: column;
+    }
+
+    .footer-email-heading {
+        font-size: 20px;
+    }
+    
+    .footer-email-text {
+        font-size: 13px;
+        max-width: 280px;
     }
 }

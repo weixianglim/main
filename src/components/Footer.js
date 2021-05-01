@@ -24,7 +24,7 @@ const Footer = forwardRef((props, ref) =>
                     fellow passionate developers!
                 </p>
                 <p className="footer-email-text">
-                    If you'd like to work together on an app / game, or simply<br/>
+                    If you'd like to work together on an app / game, or simply
                     wish to have a quick chat, feel free to drop a message below.
                 </p>
                 <div className="input-areas">
