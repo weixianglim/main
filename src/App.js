@@ -3,9 +3,15 @@ import Navbar from "./components/Navbar"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "./components/pages/Home"
 import Projects from './components/pages/Projects';
-import ProjectEntry from './components/pages/ProjectEntry';
 import Footer from './components/Footer';
 import React, { useRef } from 'react'
+
+// Project entries
+import MindOverMatter from './components/pages/Projects/MindOverMatter';
+import Trapped from './components/pages/Projects/Trapped';
+import Apotcalypse from './components/pages/Projects/Apotcalypse';
+import FishieeProtecc from './components/pages/Projects/FishieeProtecc';
+import Illan from './components/pages/Projects/Illan';
 
 function App() 
 {
@@ -21,7 +27,11 @@ function App()
         <Switch>
           <Route exact path='/home' render={() => <Home ref={navRef} />} />
           <Route exact path='/projects' render={() => <Projects ref={navRef} />}/>
-          <Route exact path='/projectentry' render={() => <ProjectEntry ref={navRef} />}/>
+          <Route exact path='/mindovermatter' render={() => <MindOverMatter ref={navRef} />}/>
+          <Route exact path='/trapped' render={() => <Trapped ref={navRef} />}/>
+          <Route exact path='/apotcalypse' render={() => <Apotcalypse ref={navRef} />}/>
+          <Route exact path='/fishieeprotecc' render={() => <FishieeProtecc ref={navRef} />}/>
+          <Route exact path='/illan' render={() => <Illan ref={navRef} />}/>
         </Switch>
         <Footer ref={footerRef} navElem={navRef}/>
       </Router>

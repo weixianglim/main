@@ -3,16 +3,16 @@ import "../../../App.css"
 import ProjectEntry from "../ProjectEntry"
 
 // Import images
-import BannerImg from "../../../images/Projects/MindOverMatter/MindOverMatter.png"
+import BannerImg from "../../../images/Projects/Trapped/Trapped.png"
 
 // Forward ref is used to propagate the element up to the parent.
 // Currently used to scroll from navbar to this element.
-const MindOverMatter = forwardRef((props, ref) => 
+const Trapped = forwardRef((props, ref) => 
 {
     // Will be passed into ProjectEntry via the render callback
     const renderObj = (
         <React.Fragment>
-            <h1>Mind Over Matter</h1>
+            <h1>Trapped</h1>
             <h2>Development Process</h2>
             <p>
                 I'm still in the midst of revamping my website, stay tuned!
@@ -26,4 +26,4 @@ const MindOverMatter = forwardRef((props, ref) =>
     );
 })
 
-export default MindOverMatter;
+export default Trapped;
