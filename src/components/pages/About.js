@@ -5,16 +5,16 @@ import { Button } from "../Button"
 
 // Importing images manually cause webpack is garbage....
 import AboutImage from "../../images/about_image.jpg"
-import CppLogo from "../../images/cppLogo.png"
-import CLogo from "../../images/cLogo.png"
-import UnityLogo from "../../images/unity.png"
-import ReactLogo from "../../images/react.png"
-import OpenGlLogo from "../../images/opengl.png"
-import JSLogo from "../../images/javascript.png"
-import PythonLogo from "../../images/python.png"
-import HtmlLogo from "../../images/html.png"
-import CssLogo from "../../images/css.png"
-import CsharpLogo from "../../images/csharp.png"
+import CppLogo from "../../images/Skillsets/cppLogo.png"
+import CLogo from "../../images/Skillsets/cLogo.png"
+import UnityLogo from "../../images/Skillsets/unity.png"
+import ReactLogo from "../../images/Skillsets/react.png"
+import OpenGlLogo from "../../images/Skillsets/opengl.png"
+import JSLogo from "../../images/Skillsets/javascript.png"
+import PythonLogo from "../../images/Skillsets/python.png"
+import HtmlLogo from "../../images/Skillsets/html.png"
+import CssLogo from "../../images/Skillsets/css.png"
+import CsharpLogo from "../../images/Skillsets/csharp.png"
 
 const About = forwardRef((props, ref) => 
 {

@@ -7,11 +7,11 @@ import Banner from "../Banner"
 import ProjectsPageBg from "../../images/ProjectsBG.gif"
 
 // Project thumnails..
-import MindOverMatterTn from "../../images/MindOverMatter.png"
-import TrappedTn from "../../images/Trapped.png"
-import ApotcalypseTn from "../../images/Apotcalypse.png"
-import FishieeTn from "../../images/FishieeProtecc.png"
-import IllanTn from "../../images/Illan.png"
+import MindOverMatterTn from "../../images/Projects/MindOverMatter/MindOverMatter.png"
+import TrappedTn from "../../images/Projects/Trapped/Trapped.png"
+import ApotcalypseTn from "../../images/Projects/Apotcalypse/Apotcalypse.png"
+import FishieeTn from "../../images/Projects/FishieeProtecc/FishieeProtecc.png"
+import IllanTn from "../../images/Projects/Illan/Illan.png"
 
 // Forward ref is used to propagate the element up to the parent.
 // Currently used to scroll from navbar to this element.
@@ -21,7 +21,7 @@ const Projects = forwardRef((props, ref) =>
     const strTitle = useState("Featured Projects");
     const [arrCardsMain, ] = useState(
         [
-            {src: MindOverMatterTn, desc: "MindOverMatter is a 2D-puzzle platformer built from scratch on a custom 2D game engine. You play as a protagonist possessing the ability to freely toggle between 3 states - Solid, Liquid, and Gas. Each state allows you to maneuver through different environmental obstacles while providing you with unique skills and abilities.", label: "MindOverMatter", linkTo: "/projects"},   
+            {src: MindOverMatterTn, desc: "MindOverMatter is a 2D-puzzle platformer built from scratch on a custom 2D game engine. You play as a protagonist possessing the ability to freely toggle between 3 states - Solid, Liquid, and Gas. Each state allows you to maneuver through different environmental obstacles while providing you with unique skills and abilities.", label: "MindOverMatter", linkTo: "/projectentry"},   
             {src: TrappedTn, desc: "Trapped follows the life of a closeted protagonist as he tries to maneuver and escape through a dark maze. Throughout this journey, he is faced with societal judgement, fear and challenges. He has to make decisions along the maze which will lead him to different endings. Which route will he ultimately end up in?", label: "Trapped", linkTo: "/projects"}          
         ]
     );

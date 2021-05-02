@@ -15,16 +15,17 @@ const Banner = (props) =>
             { videoSrc && <video src={videoSrc} autoPlay loop muted /> }
 
             {/* Seconday main title is optional */}
-            <h1>{bannerPrimaryTitle}</h1>
+            {bannerPrimaryTitle && <h1>{bannerPrimaryTitle}</h1>}
             {bannerSecondaryTitle && <h2>{bannerSecondaryTitle}</h2>}
-            <p>{bannerSubTitle}</p>
+            {bannerSubTitle && <p>{bannerSubTitle}</p>}
 
             {/* Banner button, will scroll to element on click */}
+            {btnText &&
             <div className="banner-btns">
                 <Button className="btn" buttonStyle="btn--outline" buttonSize="btn--large" elemRef={scrollTarget}>
                     {btnText}
                 </Button>
-            </div>
+            </div>}
             
         </div>
     )
