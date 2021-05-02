@@ -10,6 +10,10 @@ h1 {
     font-weight: normal;
 }
 
+html {
+    overscroll-behavior: none;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }

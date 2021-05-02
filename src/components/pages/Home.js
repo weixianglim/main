@@ -4,7 +4,7 @@ import Banner from "../Banner"
 import About from "./About"
 
 // Importing assets manually cause webpack..
-import HomePageVideo from "../../videos/MoonSea.mov"
+import HomePageBg from "../../images/HomeBG.gif"
 
 // Forward ref is used to propagate the element up to the parent.
 // Currently used to scroll from navbar to this element.
@@ -19,7 +19,7 @@ const Home = forwardRef((props, ref) =>
             bannerPrimaryTitle="Hi, my name is" 
             bannerSecondaryTitle="Wei Xiang" 
             bannerSubTitle="I make games and applications."
-            videoSrc={HomePageVideo}
+            imgSrc={HomePageBg}
             />
             <About ref={aboutRef} homeRef={ref} elemRef={aboutRef}/>
         </div>

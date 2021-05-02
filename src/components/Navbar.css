@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70px;
+  height: 100%;
   max-width: 1500px;
 }
 
@@ -28,13 +28,12 @@
   display: flex;
   align-items: center;
   height: 35px;
-  transition: 0.2s ease;
   font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
-.navbar-logo:hover {
+/* .navbar-logo:hover {
   transform: scale(1.1);
-}
+} */
 
 .nav-menu-icon {
   display: none;

@@ -4,7 +4,7 @@ import Cards from '../Cards';
 import Banner from "../Banner"
 
 // Importing assets manually cause webpack..
-import ProjectsPageVideo from "../../videos/NightSky.mov"
+import ProjectsPageBg from "../../images/ProjectsBG.gif"
 
 // Project thumnails..
 import MindOverMatterTn from "../../images/MindOverMatter.png"
@@ -44,7 +44,7 @@ const Projects = forwardRef((props, ref) =>
             <Banner scrollTarget={projectsRef} btnText="Featured Projects"
             bannerPrimaryTitle="Projects" 
             bannerSubTitle="Welcome to my laboratory."
-            videoSrc={ProjectsPageVideo}
+            imgSrc={ProjectsPageBg}
             />
             <Cards ref={projectsRef}
             title={strTitle} 
