@@ -18,7 +18,6 @@ import IllanTn from "../../images/Projects/Illan/Illan.png"
 const Projects = forwardRef((props, ref) => 
 { 
     // State variables
-    const strTitle = useState("Featured Projects");
     const [arrCardsMain, ] = useState(
         [
             {src: MindOverMatterTn, desc: "MindOverMatter is a 2D-puzzle platformer built from scratch on a custom 2D game engine. You play as a protagonist possessing the ability to freely toggle between 3 states - Solid, Liquid, and Gas. Each state allows you to maneuver through different environmental obstacles while providing you with unique skills and abilities.", label: "MindOverMatter", linkTo: "/projectentry"},   
@@ -47,7 +46,7 @@ const Projects = forwardRef((props, ref) =>
             imgSrc={ProjectsPageBg}
             />
             <Cards ref={projectsRef}
-            title={strTitle} 
+            title={"Featured Projects"} 
             cardsMain={arrCardsMain} 
             cardsRest={arrCardsRest} 
             />
