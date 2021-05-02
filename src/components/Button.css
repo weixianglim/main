@@ -52,3 +52,25 @@
     color: white;
     transition: all 0.3s ease-out;
 }
+
+@media screen and (max-width: 960px) 
+{
+    .btn--medium {
+        font-size: 15px;
+    }
+    
+    .btn--large {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .btn--medium {
+        font-size: 12px;
+    }
+    
+    .btn--large {
+        font-size: 12px;
+    }
+}

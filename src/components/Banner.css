@@ -24,6 +24,7 @@ video, .banner-container > img {
     margin-bottom: 15px;
     font-weight: normal;
     text-shadow: 2px 2px black;
+    margin-bottom: -1px;
 }
 
 .banner-container > h2 {
@@ -32,6 +33,7 @@ video, .banner-container > img {
     margin-top: -100px;
     font-weight: normal;
     text-shadow: 2px 2px black;
+    margin-top: 1px;
 }
 
 .banner-container > p {
@@ -64,13 +66,13 @@ video, .banner-container > img {
     .banner-container > h1 {
         font-size: 45px;
         margin-top: -150px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
     .banner-container > h2 {
         color: white;
         font-size: 50px;
-        margin-top: -100px;
+        margin-top: 1px;
     }
 
     .banner-container > p {
@@ -81,15 +83,14 @@ video, .banner-container > img {
 @media screen and (max-width: 768px)
 {
     .banner-container > h1 {
-        font-size: 35px;
+        font-size: 30px;
         margin-top: -100px;
-        margin-bottom: 45px;
     }
 
     .banner-container > h2 {
         color: white;
-        font-size: 40px;
-        margin-top: -100px;
+        font-size: 35px;
+        margin-top: 1px;
     }
 
     .banner-container > p {

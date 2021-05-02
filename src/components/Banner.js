@@ -16,7 +16,7 @@ const Banner = (props) =>
 
             {/* Seconday main title is optional */}
             <h1>{bannerPrimaryTitle}</h1>
-            {bannerSecondaryTitle && <h2><br/>{bannerSecondaryTitle}</h2>}
+            {bannerSecondaryTitle && <h2>{bannerSecondaryTitle}</h2>}
             <p>{bannerSubTitle}</p>
 
             {/* Banner button, will scroll to element on click */}
