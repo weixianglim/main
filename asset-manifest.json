@@ -1,36 +1,31 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.2d9ba6ed.chunk.css",
-    "main.js": "/home/static/js/main.d746ec35.chunk.js",
-    "main.js.map": "/home/static/js/main.d746ec35.chunk.js.map",
+    "main.css": "/home/static/css/main.4cc31668.chunk.css",
+    "main.js": "/home/static/js/main.e6201496.chunk.js",
+    "main.js.map": "/home/static/js/main.e6201496.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.e4e5ad17.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.e4e5ad17.js.map",
     "static/js/2.3a9de752.chunk.js": "/home/static/js/2.3a9de752.chunk.js",
     "static/js/2.3a9de752.chunk.js.map": "/home/static/js/2.3a9de752.chunk.js.map",
     "index.html": "/home/index.html",
-    "static/css/main.2d9ba6ed.chunk.css.map": "/home/static/css/main.2d9ba6ed.chunk.css.map",
+    "static/css/main.4cc31668.chunk.css.map": "/home/static/css/main.4cc31668.chunk.css.map",
     "static/js/2.3a9de752.chunk.js.LICENSE.txt": "/home/static/js/2.3a9de752.chunk.js.LICENSE.txt",
-    "static/media/Apotcalypse.1c05f0fb.png": "/home/static/media/Apotcalypse.1c05f0fb.png",
+    "static/media/Apotcalypse.4ecaf928.png": "/home/static/media/Apotcalypse.4ecaf928.png",
     "static/media/FishieeProtecc.01ecdbcc.png": "/home/static/media/FishieeProtecc.01ecdbcc.png",
+    "static/media/HomeBG.1f36e5ae.gif": "/home/static/media/HomeBG.1f36e5ae.gif",
     "static/media/Illan.ad5655dc.png": "/home/static/media/Illan.ad5655dc.png",
-    "static/media/MindOverMatter.df0ccbb0.png": "/home/static/media/MindOverMatter.df0ccbb0.png",
-    "static/media/MoonSea.a2d3c045.mov": "/home/static/media/MoonSea.a2d3c045.mov",
-    "static/media/NightSky.5a9d1110.mov": "/home/static/media/NightSky.5a9d1110.mov",
+    "static/media/MindOverMatter.4a6b9a63.png": "/home/static/media/MindOverMatter.4a6b9a63.png",
+    "static/media/ProjectsBG.06251cc7.gif": "/home/static/media/ProjectsBG.06251cc7.gif",
     "static/media/Trapped.1b4423f1.png": "/home/static/media/Trapped.1b4423f1.png",
     "static/media/WeiXiangLim_Resume.538401a4.pdf": "/home/static/media/WeiXiangLim_Resume.538401a4.pdf",
     "static/media/about_image.f628a2fd.jpg": "/home/static/media/about_image.f628a2fd.jpg",
-    "static/media/cLogo.09c3750d.png": "/home/static/media/cLogo.09c3750d.png",
-    "static/media/csharp.a354707f.png": "/home/static/media/csharp.a354707f.png",
-    "static/media/css.0c2690a2.png": "/home/static/media/css.0c2690a2.png",
-    "static/media/html.e46e5976.png": "/home/static/media/html.e46e5976.png",
-    "static/media/opengl.8e86f41e.png": "/home/static/media/opengl.8e86f41e.png",
-    "static/media/python.3b44e7ab.png": "/home/static/media/python.3b44e7ab.png",
-    "static/media/react.0b39cd36.png": "/home/static/media/react.0b39cd36.png"
+    "static/media/opengl.a2b95074.png": "/home/static/media/opengl.a2b95074.png",
+    "static/media/python.0a72d07d.png": "/home/static/media/python.0a72d07d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e4e5ad17.js",
     "static/js/2.3a9de752.chunk.js",
-    "static/css/main.2d9ba6ed.chunk.css",
-    "static/js/main.d746ec35.chunk.js"
+    "static/css/main.4cc31668.chunk.css",
+    "static/js/main.e6201496.chunk.js"
   ]
 }
