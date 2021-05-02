@@ -9,6 +9,9 @@ import ProjectImg from "../../images/Projects/MindOverMatter/MindOverMatter.png"
 // Currently used to scroll from navbar to this element.
 const ProjectEntry = forwardRef((props, ref) => 
 {
+    // Called once on page load to always start at top of page
+    useEffect(() => window.scrollTo({ top: 0, behavior: 'smooth' }), []);
+    
     return (
         <div ref={ref}>
             <Banner 
