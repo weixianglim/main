@@ -8,7 +8,6 @@ video, .banner-container > img {
 
 .banner-container {
     height: 100vh;
-    margin-top: -4%; /* Fixes 100vh mobile issue */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -105,5 +104,9 @@ video, .banner-container > img {
 
     .btn {
         width: 100%;
+    }
+
+    .banner-container {
+        margin-top: -10%; /* Fixes 100vh mobile issue */
     }
 }
