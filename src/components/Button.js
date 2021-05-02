@@ -21,7 +21,7 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize, linkTo
     // External link
     if (isExternal)
         return (
-            <a href={`${curLinkTo}`} className="btn-mobile" target="_blank">
+            <a href={`${curLinkTo}`} className="btn-mobile" target="_blank" rel="noreferrer">
                 <button
                 className={`btn ${curButtonStyle} ${curButtonSize}`}
                 onClick={onClick}

@@ -42,7 +42,7 @@ const About = forwardRef((props, ref) =>
 
                 {/* About me header and icon */}
                 <h1>About Me</h1>
-                <img src={AboutImage}></img>
+                <img src={AboutImage} alt=""></img>
                 <p>
                     An undergraduate at DigiPen Institute of Technology (Singapore) pursuing a Bachelors of Science in Computer Science 
                     in Real-Time Interactive Simulation, I have a deep passion for developing games and applications!
@@ -55,7 +55,7 @@ const About = forwardRef((props, ref) =>
                 <div className="skillsContainer">
                     {skillsArr.map((elem, i) =>
                         <div className="skill-item" key={i}>
-                            <img src={elem.src}></img>
+                            <img src={elem.src} alt=""></img>
                             <p>{elem.text}</p>
                         </div>
                     )}

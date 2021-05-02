@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react'
-import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import { Button } from "./Button"
 import "./Footer.css"
 import NavLink from "./NavLink"
@@ -14,6 +14,9 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 // Currently used to scroll from navbar to this element.
 const Footer = forwardRef((props, ref) => 
 {
+    // Get current address with React Router
+    const currLocation = useLocation();
+
     return (
         <div ref={ref} className="footer-container">
 
@@ -41,24 +44,24 @@ const Footer = forwardRef((props, ref) =>
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <a className="social-icon-link" href="https://www.linkedin.com/in/weixiang-lim/" target="_blank">
+                        <a className="social-icon-link" href="https://www.linkedin.com/in/weixiang-lim/" target="_blank" rel="noreferrer">
                             {/* <i className="fab fa-linkedin"></i> */}
                             <FontAwesomeIcon icon={faLinkedin}/>
                         </a>
                         <p>/in/weixiang-lim</p>
                     </div>
                     <div className="footer-link-items-nohover">
-                        <Link className="social-icon-link" aria-label="gmail">
+                        <div className="social-icon-link" aria-label="gmail">
                             {/* <i className="far fa-envelope"></i> */}
                             <FontAwesomeIcon icon={faEnvelope}/>
-                        </Link>
+                        </div>
                         <p>wxlimweixiang@gmail.com</p>
                     </div>
                     <div className="footer-link-items-nohover">
-                        <Link className="social-icon-link" aria-label="phone">
+                        <div className="social-icon-link" aria-label="phone">
                             {/* <i className="fas fa-phone-alt"></i> */}
                             <FontAwesomeIcon icon={faPhone}/>
-                        </Link>
+                        </div>
                         <p>9677 5978</p>
                     </div>
                 </div>
@@ -68,7 +71,7 @@ const Footer = forwardRef((props, ref) =>
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="footer-logo">
-                        <NavLink classTag="social-logo" linkTo="/home" elemRef={props.navElem}>
+                        <NavLink classTag="social-logo" linkTo={currLocation.pathname} elemRef={props.navElem}>
                             WX 
                             {/* {" "}<i class="fab fa-react"></i> */}
                         </NavLink>
@@ -81,7 +84,7 @@ const Footer = forwardRef((props, ref) =>
             </section>
 
         </div>
-    )
+    );
 })
 
 export default Footer

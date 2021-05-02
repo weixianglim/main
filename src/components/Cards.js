@@ -24,7 +24,7 @@ const Cards = forwardRef((props, ref) =>
                     <ul className="cards_entries">
                         {/* Rest of the entries */}
                         {cardsRest.map((cardEntry, i) => <Card 
-                            key={cardEntry.id}
+                            key={i}
                             src={cardEntry.src}
                             desc={cardEntry.desc}
                             label={cardEntry.label}
@@ -34,7 +34,7 @@ const Cards = forwardRef((props, ref) =>
                 </div>
             </div>
         </div>
-    )
+    );
 })
 
 export default Cards

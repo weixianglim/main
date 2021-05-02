@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import { Button } from "./Button"
 import "./Navbar.css"
 import NavLink from "./NavLink"
@@ -76,7 +76,7 @@ const Navbar = (props) =>
                 </div> {/* End navbar-container */}
             </nav> {/* End navbar */}
         </React.Fragment>
-    )
+    );
 }
 
 export default Navbar

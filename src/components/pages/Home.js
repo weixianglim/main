@@ -1,4 +1,4 @@
-import React, { forwardRef, useRef } from 'react';
+import React, { forwardRef, useRef, useEffect } from 'react';
 import "../../App.css"
 import Banner from "../Banner"
 import About from "./About"
@@ -12,6 +12,9 @@ const Home = forwardRef((props, ref) =>
 { 
     // Reference elements for target scrolling
     const aboutRef = useRef();
+
+    // Called once on page load to always start at top of page
+    useEffect(() => window.scrollTo({ top: 0, behavior: 'smooth' }), []);
 
     return (
         <div ref={ref}>

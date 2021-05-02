@@ -11,19 +11,19 @@ function App()
 {
   // Scroll target references
   const footerRef = useRef();
-  const homeRef = useRef();
+  const navRef = useRef();
 
   // React router navigation
   return (
     <React.Fragment>
       <Router>
-        <Navbar footerElem={footerRef} navElem={homeRef}/>
+        <Navbar footerElem={footerRef} navElem={navRef}/>
         <Switch>
-          <Route exact path='/home' render={() => <Home ref={homeRef} />} />
-          <Route exact path='/projects' render={() => <Projects ref={homeRef} />}/>
-          <Route exact path='/projectentry' render={() => <ProjectEntry ref={homeRef} />}/>
+          <Route exact path='/home' render={() => <Home ref={navRef} />} />
+          <Route exact path='/projects' render={() => <Projects ref={navRef} />}/>
+          <Route exact path='/projectentry' render={() => <ProjectEntry ref={navRef} />}/>
         </Switch>
-        <Footer ref={footerRef} navElem={homeRef}/>
+        <Footer ref={footerRef} navElem={navRef}/>
       </Router>
     </React.Fragment>
   );

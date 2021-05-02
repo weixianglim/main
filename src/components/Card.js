@@ -17,7 +17,7 @@ function Card(props) {
                 </Link>
             </li>
         </React.Fragment>
-    )
+    );
 }
 
 export default Card

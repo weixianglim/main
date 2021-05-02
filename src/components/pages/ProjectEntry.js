@@ -1,4 +1,4 @@
-import React, { useState, forwardRef, useRef, useEffect } from 'react';
+import React, { forwardRef, useEffect } from 'react';
 import "../../App.css"
 import Banner from "../Banner"
 
@@ -11,7 +11,7 @@ const ProjectEntry = forwardRef((props, ref) =>
 {
     // Called once on page load to always start at top of page
     useEffect(() => window.scrollTo({ top: 0, behavior: 'smooth' }), []);
-    
+
     return (
         <div ref={ref}>
             <Banner 
