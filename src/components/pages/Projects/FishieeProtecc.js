@@ -9,10 +9,13 @@ import BannerImg from "../../../images/Projects/FishieeProtecc/FishieeProtecc.pn
 // Currently used to scroll from navbar to this element.
 const FishieeProtecc = forwardRef((props, ref) => 
 {
+    // Project title
+    const projectTitle = "Fishiee Protecc";
+
     // Will be passed into ProjectEntry via the render callback
     const renderObj = (
         <React.Fragment>
-            <h1>Fishiee Protecc</h1>
+            <h1>{projectTitle}</h1>
             <h2>Development Process</h2>
             <p>
                 I'm still in the midst of revamping my website, stay tuned!
@@ -22,7 +25,10 @@ const FishieeProtecc = forwardRef((props, ref) =>
 
     // Delegate rendering to ProjectEntry component
     return (
-        <ProjectEntry ref={ref} contentCallback={() => renderObj} bannerImg={BannerImg}/>
+        <ProjectEntry ref={ref} contentCallback={() => renderObj} 
+        bannerImg={BannerImg} fadeScreen={true} 
+        projectPrimaryTitle={projectTitle}
+        btnText="Development Process"/>
     );
 })
 

@@ -9,21 +9,27 @@ import BannerImg from "../../../images/Projects/Trapped/Trapped.png"
 // Currently used to scroll from navbar to this element.
 const Trapped = forwardRef((props, ref) => 
 {
-    // Will be passed into ProjectEntry via the render callback
-    const renderObj = (
-        <React.Fragment>
-            <h1>Trapped</h1>
-            <h2>Development Process</h2>
-            <p>
-                I'm still in the midst of revamping my website, stay tuned!
-            </p>
-        </React.Fragment>
-    );
+     // Project title
+     const projectTitle = "Trapped";
 
-    // Delegate rendering to ProjectEntry component
-    return (
-        <ProjectEntry ref={ref} contentCallback={() => renderObj} bannerImg={BannerImg}/>
-    );
+     // Will be passed into ProjectEntry via the render callback
+     const renderObj = (
+         <React.Fragment>
+             <h1>{projectTitle}</h1>
+             <h2>Development Process</h2>
+             <p>
+                 I'm still in the midst of revamping my website, stay tuned!
+             </p>
+         </React.Fragment>
+     );
+ 
+     // Delegate rendering to ProjectEntry component
+     return (
+         <ProjectEntry ref={ref} contentCallback={() => renderObj} 
+         bannerImg={BannerImg} fadeScreen={true} 
+         projectPrimaryTitle={projectTitle}
+         btnText="Development Process"/>
+     );
 })
 
 export default Trapped;
