@@ -101,12 +101,6 @@
     font-weight: normal;
   }
   
-  @media only screen and (min-width: 1200px) {
-    .content_blog_container {
-      width: 84%;
-    }
-  }
-  
   @media only screen and (min-width: 1024px) {
     .cards_entries {
       display: flex;
@@ -119,5 +113,10 @@
     }
     h1 {
       font-size: 25px;
+    }
+    .cards_entry {
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 10px;
     }
   }
