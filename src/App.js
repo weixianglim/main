@@ -1,17 +1,17 @@
 import './App.css';
 import Navbar from "./components/Navbar"
 import { HashRouter, Switch, Route } from "react-router-dom"
-import Home from "./components/pages/Home"
-import Projects from './components/pages/Projects';
-import Footer from './components/Footer';
-import React, { useRef } from 'react'
+import React, { useRef, Suspense, lazy } from 'react'
 
-// Project entries
-import MindOverMatter from './components/pages/Projects/MindOverMatter';
-import Trapped from './components/pages/Projects/Trapped';
-import Apotcalypse from './components/pages/Projects/Apotcalypse';
-import FishieeProtecc from './components/pages/Projects/FishieeProtecc';
-import Illan from './components/pages/Projects/Illan';
+// Lazy load components
+const Home = lazy(()=>import("./components/pages/Home"));
+const Projects = lazy(()=>import("./components/pages/Projects"));
+const Footer = lazy(()=>import("./components/Footer"));
+const MindOverMatter = lazy(()=>import('./components/pages/Projects/MindOverMatter'));
+const Trapped = lazy(()=>import('./components/pages/Projects/Trapped'));
+const Apotcalypse = lazy(()=>import('./components/pages/Projects/Apotcalypse'));
+const FishieeProtecc = lazy(()=>import('./components/pages/Projects/FishieeProtecc'));
+const Illan = lazy(()=>import('./components/pages/Projects/Illan'));
 
 function App() 
 {
@@ -21,19 +21,23 @@ function App()
 
   // React router navigation
   return (
-      <HashRouter basename="/">
-        <Navbar footerElem={footerRef} navElem={navRef}/>
-        <Switch>
-          <Route exact path='/' render={() => <Home ref={navRef} />} />
-          <Route exact path='/projects' render={() => <Projects ref={navRef} />}/>
-          <Route exact path='/mindovermatter' render={() => <MindOverMatter ref={navRef} />}/>
-          <Route exact path='/trapped' render={() => <Trapped ref={navRef} />}/>
-          <Route exact path='/apotcalypse' render={() => <Apotcalypse ref={navRef} />}/>
-          <Route exact path='/fishieeprotecc' render={() => <FishieeProtecc ref={navRef} />}/>
-          <Route exact path='/illan' render={() => <Illan ref={navRef} />}/>
-        </Switch>
-        <Footer ref={footerRef} navElem={navRef}/>
-      </HashRouter>
+          <React.Fragment>
+            <Suspense fallback={<div>Loading...</div>}>
+              <HashRouter basename="/">
+                <Navbar footerElem={footerRef} navElem={navRef}/>
+                <Switch>
+                  <Route exact path='/' render={() => <Home ref={navRef} />} />
+                  <Route exact path='/projects' render={() => <Projects ref={navRef} />}/>
+                  <Route exact path='/mindovermatter' render={() => <MindOverMatter ref={navRef} />}/>
+                  <Route exact path='/trapped' render={() => <Trapped ref={navRef} />}/>
+                  <Route exact path='/apotcalypse' render={() => <Apotcalypse ref={navRef} />}/>
+                  <Route exact path='/fishieeprotecc' render={() => <FishieeProtecc ref={navRef} />}/>
+                  <Route exact path='/illan' render={() => <Illan ref={navRef} />}/>
+                </Switch>
+                <Footer ref={footerRef} navElem={navRef}/>
+              </HashRouter>
+              </Suspense>
+            </React.Fragment>
   );
 }
 
