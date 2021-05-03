@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.5565e4a6.chunk.css",
+    "main.css": "/home/static/css/main.34fafa83.chunk.css",
     "main.js": "/home/static/js/main.1bb74645.chunk.js",
     "main.js.map": "/home/static/js/main.1bb74645.chunk.js.map",
     "reactPlayerDailyMotion.js": "/home/static/js/reactPlayerDailyMotion.6959b43a.chunk.js",
@@ -34,7 +34,7 @@
     "static/js/15.e15e0168.chunk.js": "/home/static/js/15.e15e0168.chunk.js",
     "static/js/15.e15e0168.chunk.js.map": "/home/static/js/15.e15e0168.chunk.js.map",
     "index.html": "/home/index.html",
-    "static/css/main.5565e4a6.chunk.css.map": "/home/static/css/main.5565e4a6.chunk.css.map",
+    "static/css/main.34fafa83.chunk.css.map": "/home/static/css/main.34fafa83.chunk.css.map",
     "static/js/15.e15e0168.chunk.js.LICENSE.txt": "/home/static/js/15.e15e0168.chunk.js.LICENSE.txt",
     "static/media/Apotcalypse.4ecaf928.png": "/home/static/media/Apotcalypse.4ecaf928.png",
     "static/media/FishieeProtecc.01ecdbcc.png": "/home/static/media/FishieeProtecc.01ecdbcc.png",
@@ -53,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.00ca6584.js",
     "static/js/15.e15e0168.chunk.js",
-    "static/css/main.5565e4a6.chunk.css",
+    "static/css/main.34fafa83.chunk.css",
     "static/js/main.1bb74645.chunk.js"
   ]
 }
