@@ -17,7 +17,7 @@ const Illan = forwardRef((props, ref) =>
         <React.Fragment>
             <h1>{projectTitle}</h1>
             <h2>Development Process</h2>
-            <p>
+             <p className="placeholderText">
                 I'm still in the midst of revamping my website, stay tuned!
             </p>
         </React.Fragment>
@@ -28,7 +28,7 @@ const Illan = forwardRef((props, ref) =>
         <ProjectEntry ref={ref} contentCallback={() => renderObj} 
         bannerImg={BannerImg} fadeScreen={true} 
         projectPrimaryTitle={projectTitle}
-        btnText="Development Process"/>
+        btnText="View Full Info"/>
     );
 })
 
