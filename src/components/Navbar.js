@@ -36,7 +36,7 @@ const Navbar = (props) =>
                 <div className="navbar-container">
 
                     {/* Home route and icon */}
-                    <NavLink classTag="navbar-logo" linkTo="/home" elemRef={props.navElem} closeMenu={closeNavMenu}>
+                    <NavLink classTag="navbar-logo" linkTo="/" elemRef={props.navElem} closeMenu={closeNavMenu}>
                         WX
                     </NavLink>
 
@@ -49,7 +49,7 @@ const Navbar = (props) =>
                     {/* List of navigation routes */}
                     <ul className={navMenuActive ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <NavLink classTag="nav-links" linkTo="/home" elemRef={props.navElem} closeMenu={closeNavMenu}>
+                            <NavLink classTag="nav-links" linkTo="/" elemRef={props.navElem} closeMenu={closeNavMenu}>
                                 Home
                             </NavLink>
                         </li>
