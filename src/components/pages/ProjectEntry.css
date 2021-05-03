@@ -61,6 +61,7 @@
 
 .projectEntryContainer .projectInfo {
     font-size: 16px;
+    padding: 0px 30px 0px 30px;
 }
 
 .awardsInfo {
@@ -68,6 +69,7 @@
     margin-bottom: 40px;
     color:rgb(50, 100, 100);
     font-size: 16px;
+    padding: 0px 30px 0px 30px;
 }
 
 .awardEntry {
