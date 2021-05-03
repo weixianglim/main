@@ -16,7 +16,7 @@ const Illan = forwardRef((props, ref) =>
     const renderObj = (
         <React.Fragment>
             <h1>{projectTitle}</h1>
-            <h2>Development Process</h2>
+            <h2>Development</h2>
              <p className="placeholderText">
                 I'm still in the midst of revamping my website, stay tuned!
             </p>

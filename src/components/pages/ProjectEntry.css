@@ -18,7 +18,7 @@
 }
 
 .projectEntryContainer > img {
-    margin: 10px 0px 20px;
+    margin-bottom: 20px;
     text-align: center;
     width: 90%;
 }
@@ -31,6 +31,8 @@
 .projectEntryContainer h3 {
     font-size: 18px;
     color:rgb(71, 71, 71);
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .projectEntryContainer > p {
@@ -44,7 +46,7 @@
     text-align: center;
 }
 
-.projectEntryContainer span {
+.projectInfo span {
     color:rgb(50, 100, 100);
     /* background-color: seagreen; */
     text-decoration: bold;
@@ -61,6 +63,23 @@
     font-size: 16px;
 }
 
+.awardsInfo {
+    text-align: justify;
+    margin-bottom: 40px;
+    color:rgb(50, 100, 100);
+    font-size: 16px;
+}
+
+.awardEntry {
+    margin-left: 8px;
+    /* font-weight: 500; */
+}
+
+.awardsInfo > h3 {
+    color:rgb(50, 100, 100);
+    margin-top: 10px;
+}
+
 .projectEntryContainer h2 {
     width: 90%;
     margin-bottom: 20px;
@@ -71,7 +90,32 @@
 }
 
 .projectEntryContainer > .btn-mobile {
+    margin-bottom: 20px;
+}
+
+.projectEntryContainer .trailer {
     margin-bottom: 40px;
+    width: 90%;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.projectEntryEndButtons .btn {
+    margin: 0px 10px 0px 10px;
+}
+
+.projectEntryEndButtons {
+    margin-bottom: 40px;
+    display: flex;
 }
 
 @media screen and (max-width: 768px)
@@ -92,7 +136,19 @@
         font-size: 16px;
     }
 
+    .awardsInfo {
+        font-size: 14px;
+    }
+
     .projectEntryContainer .projectInfo {
         font-size: 14px;
+    }
+
+    .projectEntryEndButtons {
+        flex-direction: column;
+    }
+
+    .projectEntryEndButtons .btn {
+        margin: 10px 10px;
     }
 }

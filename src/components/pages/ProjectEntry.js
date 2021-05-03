@@ -12,7 +12,8 @@ const ProjectEntry = forwardRef((props, ref) =>
     useEffect(() => window.scrollTo({ top: 0, behavior: 'smooth' }), []);
 
     // Obtain props variables
-    const { bannerImg, projectPrimaryTitle, projectSecondaryTitle, projectSubtitle, contentCallback, fadeScreen, btnText } = props;
+    const { bannerImg, projectPrimaryTitle, projectSecondaryTitle, projectSubtitle, contentCallback, fadeScreen, 
+            btnText, playLink, playBtnText } = props;
 
     // Obtain reference for scroll target
     const projectEntryElem = useRef();
@@ -33,7 +34,10 @@ const ProjectEntry = forwardRef((props, ref) =>
             {/* Project content */}
             <ProjectEntryContent 
             ref={projectEntryElem} 
-            contentCallback={contentCallback} />
+            contentCallback={contentCallback} 
+            playLink={playLink}
+            playBtnText={playBtnText}
+            />
         </div>
     );
 })
