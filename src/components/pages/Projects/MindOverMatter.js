@@ -1,15 +1,16 @@
 import React, { forwardRef } from 'react';
 import "../../../App.css"
 import ProjectEntry from "../ProjectEntry"
+import ReactPlayer from 'react-player/lazy'
 
-// Import images
+// Import icons
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-// import { faTrophy } from '@fortawesome/free-solid-svg-icons';
 import { faAward } from '@fortawesome/free-solid-svg-icons';
 import { faMedal } from '@fortawesome/free-solid-svg-icons';
+
+// Import images
 import BannerImg from "../../../images/Projects/MindOverMatter/TitleScreen.gif"
 import InfoScreen from "../../../images/Projects/MindOverMatter/SS1.png"
-import ReactPlayer from 'react-player/lazy'
 
 // Forward ref is used to propagate the element up to the parent.
 // Currently used to scroll from navbar to this element.
