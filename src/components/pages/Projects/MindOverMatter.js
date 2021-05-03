@@ -37,6 +37,9 @@ const MindOverMatter = forwardRef((props, ref) =>
 
                     <span className="tag">Contributions</span>Game Engine Architecture<br /><span />
                                                               Graphics Environment (OpenGL)<br /><span />
+                                                              Serialization<br /><span />
+                                                              Gameplay Programming<br /><span />
+                                                              Tilemapping<br /><span />
                                                               Level Editor<br /><span className="endLine" />
 
                     <span className="tag">Technologies</span>C++ Custom Engine<br /><span />
