@@ -30,7 +30,11 @@ const MindOverMatter = forwardRef((props, ref) =>
                 <p>
                     <span className="tag">Genre</span>2D Puzzle Platformer <br /><span className="endLine" />
 
-                    <span className="tag">Roles</span>Technical Lead<br /><span />
+                    <span className="tag">Technologies</span>C++ Custom Engine<br /><span />
+                                                             ImGui (Level Editor)<br /><span />
+                                                             OpenGL<br /><span className="endLine" />
+
+                    <span className="tag">My Roles</span>Technical Lead<br /><span />
                                                       Graphics Lead<br /><span />
                                                       Engine Architecture Lead<br /><span />
                                                       Technical Producer<br /><span className="endLine" />
@@ -40,11 +44,7 @@ const MindOverMatter = forwardRef((props, ref) =>
                                                               Serialization<br /><span />
                                                               Gameplay Programming<br /><span />
                                                               Tilemapping<br /><span />
-                                                              Level Editor<br /><span className="endLine" />
-
-                    <span className="tag">Technologies</span>C++ Custom Engine<br /><span />
-                                                             ImGui (Level Editor)<br /><span />
-                                                             OpenGL
+                                                              Level Editor
                 </p><span className="endLine" />
             </div>
             <div className="awardsInfo">

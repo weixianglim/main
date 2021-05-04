@@ -31,17 +31,17 @@ const FishieeProtecc = forwardRef((props, ref) =>
                     <span className="tag">Themes</span>High-Octane<br /><span />
                                                        Protection<br /><span className="endLine" />
 
-                    <span className="tag">Roles</span>Technical Lead<br /><span />
+                    <span className="tag">Technologies</span>C++ Custom Engine<br /><span />
+                                                             OpenGL<br /><span className="endLine" />
+
+                    <span className="tag">My Roles</span>Technical Lead<br /><span />
                                                       Graphics Lead<br /><span />
                                                       Engine Architecture Lead<br /><span />
                                                       Technical Producer<br /><span className="endLine" />
 
                     <span className="tag">Contributions</span>Game Engine Architecture<br /><span />
                                                               Graphics Environment (OpenGL)<br /><span />
-                                                              Gameplay Programming<br /><span className="endLine" />
-
-                    <span className="tag">Technologies</span>C++ Custom Engine<br /><span />
-                                                             OpenGL
+                                                              Gameplay Programming
                 </p><span className="endLine" />
             </div>
             <div className="awardsInfo">

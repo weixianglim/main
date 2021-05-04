@@ -30,7 +30,11 @@ const Illan = forwardRef((props, ref) =>
                     <span className="tag">Themes</span>3D Exploration<br /><span />
                                                        Puzzle Solving<br /><span className="endLine" />
 
-                    <span className="tag">Roles</span>Technical Lead<br /><span />
+                    <span className="tag">Technologies</span>Unity<br /><span />
+                                                             C#<br /><span />
+                                                             PS4<br /><span className="endLine" />
+
+                    <span className="tag">My Roles</span>Technical Lead<br /><span />
                                                       Technical Producer<br /><span />
                                                       Gameplay Programmer<br /><span className="endLine" />
 
@@ -38,11 +42,7 @@ const Illan = forwardRef((props, ref) =>
                                                               Puzzle Algorithms<br /><span />
                                                               Shaders and VFX<br /><span />
                                                               Flight Mechanics<br /><span />
-                                                              Gameplay Programming<br /><span className="endLine" />
-
-                    <span className="tag">Technologies</span>Unity<br /><span />
-                                                             C#<br /><span />
-                                                             PS4
+                                                              Gameplay Programming
                 </p><span className="endLine" />
             </div>
             <div className="awardsInfo">

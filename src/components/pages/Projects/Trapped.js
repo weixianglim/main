@@ -25,11 +25,11 @@ const Trapped = forwardRef((props, ref) =>
                     <span className="tag">Themes</span>Exploration<br /><span />
                                                        Sexuality<br /><span className="endLine" />
 
-                    <span className="tag">Contributions</span>All (solo project)<br /><span className="endLine" />
-
                     <span className="tag">Technologies</span>Unity Engine<br /><span />
                                                              C#<br /><span />
-                                                             Shaders
+                                                             Shaders<br /><span className="endLine" />
+
+                    <span className="tag">Contributions</span>All (solo project)
                 </p><span className="endLine" />
             </div>
              <p className="placeholderText">
