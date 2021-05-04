@@ -121,6 +121,17 @@
     display: flex;
 }
 
+.projectEntryEndButtons .btn {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 960px) 
+{
+    .projectEntryEndButtons .btn {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 768px)
 {
     .projectEntryContainer > p {
@@ -153,5 +164,9 @@
 
     .projectEntryEndButtons .btn {
         margin: 10px 10px;
+    }
+
+    .projectEntryEndButtons .btn {
+        font-size: 12px;
     }
 }

@@ -18,7 +18,7 @@
     font-size: 30px;
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 960px)
 {
     .loadingCentered > h1 {
         font-size: 25px;
@@ -26,5 +26,12 @@
 
     .loadingCentered {
         top: 32%;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .loadingCentered > h1 {
+        display: none;
     }
 }

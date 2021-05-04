@@ -120,7 +120,7 @@ const MindOverMatter = forwardRef((props, ref) =>
             </p>
             <img src={AllPutTogether} alt="" />
             <p>
-                Of couse there are way more to discuss when it comes to developing Mind Over Matter, but what's the fun in spoiling everything? If you're interested, feel free to download
+                Of couse there's way more to discuss when it comes to developing Mind Over Matter, but what's the fun in spoiling everything? If you're interested, feel free to download
                 the game by following the link below!
             </p><br />
         </React.Fragment>
