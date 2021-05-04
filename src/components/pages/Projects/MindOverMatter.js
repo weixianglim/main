@@ -11,6 +11,12 @@ import { faMedal } from '@fortawesome/free-solid-svg-icons';
 // Import images
 import BannerImg from "../../../images/Projects/MindOverMatter/TitleScreen.gif"
 import InfoScreen from "../../../images/Projects/MindOverMatter/SS1.png"
+import EnvironmentBreakdown from "../../../images/Projects/MindOverMatter/Environment.gif"
+import Tilemaps from "../../../images/Projects/MindOverMatter/Tilemaps.gif"
+import Animations from "../../../images/Projects/MindOverMatter/Animations.gif"
+import CharacterRecover from "../../../images/Projects/MindOverMatter/Character_Recover.png"
+import WaterMechanics from "../../../images/Projects/MindOverMatter/WaterMechanics.gif"
+import AllPutTogether from "../../../images/Projects/MindOverMatter/AllPutTogether.gif"
 
 // Forward ref is used to propagate the element up to the parent.
 // Currently used to scroll from navbar to this element.
@@ -28,7 +34,9 @@ const MindOverMatter = forwardRef((props, ref) =>
             <img src={InfoScreen} alt="" />
             <div className="projectInfo">
                 <p>
-                    <span className="tag">Genre</span>2D Puzzle Platformer <br /><span className="endLine" />
+                    <span className="tag">Genre</span>2D Puzzle Platformer<br /><span className="endLine" />
+
+                    <span className="tag">Style</span>2D Pixel Art<br /><span className="endLine" />
 
                     <span className="tag">Technologies</span>C++ Custom Engine<br /><span />
                                                              ImGui (Level Editor)<br /><span />
@@ -65,13 +73,56 @@ const MindOverMatter = forwardRef((props, ref) =>
             
             <h3>Overview</h3>
             <p>
-                Mind Over Matter was developed by a team of 9 members over the course of 2 semesters.
-                Being the technical lead for the project, I handled the majority of the engine, 
-                gameplay, graphics and scripting codes while also managing the delegation of programming tasks. I was also the co-producer and acted as the 
-                bridge between the technical team and designers.
-                I was particularly proud of the tilemap system and the amount of polish we've put into the game towards the Gold/Shipping phase. In the end, all 
-                the hardwork was well worth the effort as MindOverMatter was nominated for (and won!) multiple awards.
+                Mind Over Matter was developed by a team of 4 programmers, 2 artists, and 2 designers over the course of 2 semesters. It is a 2D-puzzle platformer built from scratch on a custom 2D game engine. 
+                You play as a protagonist possessing the ability to freely toggle between 3 states - Solid, Liquid, and Gas. Each state allows you to maneuver through different 
+                environmental obstacles while providing you with unique skills and abilities.
             </p>
+            <h3>Challenges</h3>
+            <p>
+                Being the lead programmer for the project, I handled the majority of the engine, 
+                gameplay, graphics and scripting codes while also managing the delegation of programming tasks. I was also the co-producer and acted as the 
+                bridge between the technical team and designers. The biggest challenge I faced was optimization. The maps we were building were big - and I mean, really big!
+                They span across large areas and even required multiple layers to cater for parallax-scrolling.
+            </p>
+            <img src={EnvironmentBreakdown} alt="" />
+            <p><br />
+                With that in mind, I decided to head in the direction of <b>tilemaps</b>. This eliminated the need for our artists to manually draw each level since a single 
+                spritesheet can be sliced via OpenGL and used to paint multiple levels. It also ensures that no redundant resources were loaded; a few select texture buffers are enough to 
+                fully cater for multiple environments. Tilemaps also provided the added advantage of spatial optimization. As the maps are tiled, we can choose to only render
+                tiles within a certain radial range of the player character. So even if our maps are way larger than the viewport, all unnecessary tiles were not processed by the 
+                GPU with this new tilemapping system. After this implementation, our framerate drastically improved from 20+/30 FPS up to 100+ FPS.
+            </p>
+            <img src={Tilemaps} alt="" />
+            <h3>Catering for character animations</h3>
+            <p>
+                The process of messing around with the texture coordinates in the tilemap system led me to create another crucial system in our engine - the animation handler.
+                Once again, I proposed to the team that spritesheets can be used for all our character animations. I expanded on the base spritesheet slicer we had for the tilemaps
+                and added in multiple functionalities to eventually create a full state-based animation system that was used in the final product for every animation in the game, ranging
+                from character states, character movements, user interfaces, environmental props and much more.
+            </p>
+            <img src={CharacterRecover} alt="" />
+            <img src={Animations} alt="" />
+            <h3>Gameplay - Character States</h3>
+            <p>
+                The main game idea revolves around the 3 states that the player can be in (solid/liquid/gas). The gameplay has to cater for this aspect. The liquid state in particular was
+                extremely tough. Initially, we had the idea of liquid physics and allowing the liquid to be fully dynamic and fit into any shape of the environment, including small crevices.
+                The latter was actually achieved. In the early prototype of the game, I created a base water mechanic using particles and managed to create a seamless body of water as a playable
+                character that could dynamically react with the environment. Here's a quick demo on what it looked like: 
+            </p>
+            <img src={WaterMechanics} alt="" />
+            <p>
+                This mechanic was later on scrapped as we decided to approach a simpler gameplay style for the water state, removing the need for a dynamic water body. A spritesheet was used 
+                in the final product and while I'm sad that the dynamic water mechanic did not end up making the cut, the process of creating it was still extremely fun!
+            </p>
+            <h3>Everything Put Together</h3>
+            <p>
+                Wonder how the end product looks like with all the systems put together? Here's a little sneak preview:
+            </p>
+            <img src={AllPutTogether} alt="" />
+            <p>
+                Of couse there are way more to discuss when it comes to developing Mind Over Matter, but what's the fun in spoiling everything? If you're interested, feel free to download
+                the game by following the link below!
+            </p><br />
         </React.Fragment>
     );
 

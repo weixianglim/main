@@ -33,12 +33,13 @@
     color:rgb(71, 71, 71);
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 .projectEntryContainer > p {
     font-size: 18px;
     width: 90%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: justify;
 }
 
@@ -84,7 +85,7 @@
 
 .projectEntryContainer h2 {
     width: 90%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 22px;
     text-align: center;
     color: rgb(160, 160, 160);
