@@ -1,7 +1,7 @@
-import React, { useState, forwardRef, useRef, useEffect } from 'react';
+import React, { useState, forwardRef, useRef, useEffect, Suspense, lazy } from 'react';
 import "../../App.css"
 import Cards from '../Cards';
-import Banner from "../Banner"
+import Loading from "../Loading"
 
 // Importing assets manually cause webpack..
 import ProjectsPageBg from "../../images/ProjectsBG.gif"
@@ -12,6 +12,9 @@ import TrappedTn from "../../images/Projects/Trapped/Trapped.png"
 import ApotcalypseTn from "../../images/Projects/Apotcalypse/Apotcalypse.png"
 import FishieeTn from "../../images/Projects/FishieeProtecc/FishieeProtecc.png"
 import IllanTn from "../../images/Projects/Illan/Illan.png"
+
+// Lazy load components
+const Banner = lazy(()=>import("../Banner"));
 
 // Forward ref is used to propagate the element up to the parent.
 // Currently used to scroll from navbar to this element.
@@ -39,18 +42,20 @@ const Projects = forwardRef((props, ref) =>
     useEffect(() => window.scrollTo({ top: 0, behavior: 'smooth' }), []);
 
     return (
-        <div ref={ref}>
-            <Banner scrollTarget={projectsRef} btnText="Featured Projects"
-            bannerPrimaryTitle="Projects" 
-            bannerSubTitle="Welcome to my laboratory."
-            imgSrc={ProjectsPageBg}
-            />
-            <Cards ref={projectsRef}
-            title={"Featured Projects"} 
-            cardsMain={arrCardsMain} 
-            cardsRest={arrCardsRest} 
-            />
-        </div>
+        <Suspense fallback={<Loading />}>
+            <div ref={ref}>
+                <Banner scrollTarget={projectsRef} btnText="Featured Projects"
+                bannerPrimaryTitle="Projects" 
+                bannerSubTitle="Welcome to my laboratory."
+                imgSrc={ProjectsPageBg}
+                />
+                <Cards ref={projectsRef}
+                title={"Featured Projects"} 
+                cardsMain={arrCardsMain} 
+                cardsRest={arrCardsRest} 
+                />
+            </div>
+        </Suspense>
     );
 })
 

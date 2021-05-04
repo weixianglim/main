@@ -1,10 +1,13 @@
-import React, { forwardRef, useRef, useEffect } from 'react';
+import React, { forwardRef, useRef, useEffect, Suspense, lazy } from 'react';
 import "../../App.css"
-import Banner from "../Banner"
 import About from "./About"
+import Loading from "../Loading"
 
 // Importing assets manually cause webpack..
 import HomePageBg from "../../images/HomeBG.gif"
+
+// Lazy load components
+const Banner = lazy(()=>import("../Banner"));
 
 // Forward ref is used to propagate the element up to the parent.
 // Currently used to scroll from navbar to this element.
@@ -17,15 +20,17 @@ const Home = forwardRef((props, ref) =>
     useEffect(() => window.scrollTo({ top: 0, behavior: 'smooth' }), []);
 
     return (
-        <div ref={ref}>
-            <Banner scrollTarget={aboutRef} btnText="About Me"
-            bannerPrimaryTitle="Hi, my name is" 
-            bannerSecondaryTitle="Wei Xiang" 
-            bannerSubTitle="I make games and applications."
-            imgSrc={HomePageBg}
-            />
-            <About ref={aboutRef} homeRef={ref} elemRef={aboutRef}/>
-        </div>
+        <Suspense fallback={<Loading />}>
+            <div ref={ref}>
+                <Banner scrollTarget={aboutRef} btnText="About Me"
+                bannerPrimaryTitle="Hi, my name is" 
+                bannerSecondaryTitle="Wei Xiang" 
+                bannerSubTitle="I make games and applications."
+                imgSrc={HomePageBg}
+                />
+                <About ref={aboutRef} homeRef={ref} elemRef={aboutRef}/>
+            </div>
+        </Suspense>
     );
 })
 
