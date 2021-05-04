@@ -1,0 +1,18 @@
+.loadingContainer {
+    background-color: #242424;
+    height: 100vh;
+}
+
+.loadingCentered {
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-25%, 0);
+}
+
+.loadingCentered > h1 {
+    text-align: left;
+    padding-left: 16px;
+    color: rgb(177, 177, 177);
+}
