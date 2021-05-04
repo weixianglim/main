@@ -2,7 +2,7 @@
   "files": {
     "static/js/0.f382c15b.chunk.js": "/home/static/js/0.f382c15b.chunk.js",
     "static/js/0.f382c15b.chunk.js.map": "/home/static/js/0.f382c15b.chunk.js.map",
-    "main.css": "/home/static/css/main.2283e112.chunk.css",
+    "main.css": "/home/static/css/main.3da6d6b3.chunk.css",
     "main.js": "/home/static/js/main.e2b1286d.chunk.js",
     "main.js.map": "/home/static/js/main.e2b1286d.chunk.js.map",
     "reactPlayerDailyMotion.js": "/home/static/js/reactPlayerDailyMotion.bbd0d577.chunk.js",
@@ -70,7 +70,7 @@
     "static/css/22.efa6cf22.chunk.css.map": "/home/static/css/22.efa6cf22.chunk.css.map",
     "static/css/23.aa9cca32.chunk.css.map": "/home/static/css/23.aa9cca32.chunk.css.map",
     "static/css/24.9ea90f5b.chunk.css.map": "/home/static/css/24.9ea90f5b.chunk.css.map",
-    "static/css/main.2283e112.chunk.css.map": "/home/static/css/main.2283e112.chunk.css.map",
+    "static/css/main.3da6d6b3.chunk.css.map": "/home/static/css/main.3da6d6b3.chunk.css.map",
     "static/js/16.eb757727.chunk.js.LICENSE.txt": "/home/static/js/16.eb757727.chunk.js.LICENSE.txt",
     "static/js/25.dd37f329.chunk.js.LICENSE.txt": "/home/static/js/25.dd37f329.chunk.js.LICENSE.txt",
     "static/media/Apotcalypse.png": "/home/static/media/Apotcalypse.4ecaf928.png",
@@ -90,7 +90,7 @@
   "entrypoints": [
     "static/js/runtime-main.83918057.js",
     "static/js/16.eb757727.chunk.js",
-    "static/css/main.2283e112.chunk.css",
+    "static/css/main.3da6d6b3.chunk.css",
     "static/js/main.e2b1286d.chunk.js"
   ]
 }
