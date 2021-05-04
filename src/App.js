@@ -22,23 +22,23 @@ function App()
 
   // React router navigation
   return (
-          <React.Fragment>
+        <React.Fragment>
             <Suspense fallback={<Loading />}>
-              <HashRouter basename="/">
-                <Navbar footerElem={footerRef} navElem={navRef}/>
-                <Switch>
-                  <Route exact path='/' render={() => <Home ref={navRef} />} />
-                  <Route exact path='/projects' render={() => <Projects ref={navRef} />}/>
-                  <Route exact path='/mindovermatter' render={() => <MindOverMatter ref={navRef} />}/>
-                  <Route exact path='/trapped' render={() => <Trapped ref={navRef} />}/>
-                  <Route exact path='/apotcalypse' render={() => <Apotcalypse ref={navRef} />}/>
-                  <Route exact path='/fishieeprotecc' render={() => <FishieeProtecc ref={navRef} />}/>
-                  <Route exact path='/illan' render={() => <Illan ref={navRef} />}/>
-                </Switch>
-                <Footer ref={footerRef} navElem={navRef}/>
-              </HashRouter>
-              </Suspense>
-            </React.Fragment>
+                <HashRouter basename="/">
+                    <Navbar footerElem={footerRef} navElem={navRef}/>
+                    <Switch>
+                        <Route exact path='/' render={() => <Home ref={navRef} />} />
+                        <Route exact path='/projects' render={() => <Projects ref={navRef} />}/>
+                        <Route exact path='/mindovermatter' render={() => <MindOverMatter ref={navRef} />}/>
+                        <Route exact path='/trapped' render={() => <Trapped ref={navRef} />}/>
+                        <Route exact path='/apotcalypse' render={() => <Apotcalypse ref={navRef} />}/>
+                        <Route exact path='/fishieeprotecc' render={() => <FishieeProtecc ref={navRef} />}/>
+                        <Route exact path='/illan' render={() => <Illan ref={navRef} />}/>
+                    </Switch>
+                    <Footer ref={footerRef} navElem={navRef}/>
+                </HashRouter>
+            </Suspense>
+        </React.Fragment>
   );
 }
 
