@@ -62,7 +62,7 @@ const Footer = forwardRef((props, ref) =>
                             {/* <i className="fas fa-phone-alt"></i> */}
                             <FontAwesomeIcon icon={faPhone}/>
                         </div>
-                        <p>9677 5978</p>
+                        <p>+65 9677 5978</p>
                     </div>
                 </div>
             </div>
