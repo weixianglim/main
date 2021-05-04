@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from "./components/Navbar"
 import { HashRouter, Switch, Route } from "react-router-dom"
 import React, { useRef, Suspense, lazy } from 'react'
+import Loading from "./components/Loading"
 
 // Lazy load components
 const Home = lazy(()=>import("./components/pages/Home"));
@@ -22,7 +23,7 @@ function App()
   // React router navigation
   return (
           <React.Fragment>
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<Loading />}>
               <HashRouter basename="/">
                 <Navbar footerElem={footerRef} navElem={navRef}/>
                 <Switch>
