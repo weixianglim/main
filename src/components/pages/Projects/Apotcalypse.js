@@ -12,6 +12,7 @@ import { faMedal } from '@fortawesome/free-solid-svg-icons';
 import BannerImg from "../../../images/Projects/Apotcalypse/Apotcalypse.png"
 // import InfoScreen from "../../../images/Projects/MindOverMatter/SS1.png"
 import CircularPot from "../../../images/Projects/Apotcalypse/CircularPot.gif"
+import FruletsHappy from "../../../images/Projects/Apotcalypse/FruletsHappy.gif"
 import CircularQuadrant from "../../../images/Projects/Apotcalypse/CircularQuadrant.png"
 import CutsceneIntro from "../../../images/Projects/Apotcalypse/CutsceneIntro.gif"
 import NewEnvironment from "../../../images/Projects/Apotcalypse/NewEnvironment.gif"
@@ -32,7 +33,7 @@ const Apotcalypse = forwardRef((props, ref) =>
             <h1>{projectTitle}</h1>
             <h2>Development</h2>
             <h3>Project Info</h3>
-            <img src={BannerImg} alt="" />
+            <img src={FruletsHappy} alt="" />
             <div className="projectInfo">
                 <p>
                     <span className="tag">Genre</span>Colony Simulator<br /><span className="endLine" />
@@ -87,6 +88,7 @@ const Apotcalypse = forwardRef((props, ref) =>
             </p>
             
             <h3>Challenges</h3>
+            <img src={CutsceneIntro} alt="" />
             <p>
                 The project started off pretty rough. For starters, the game idea itself was obscure; all of us on the programming team were very new to the genre and there were many misconceptions of the game idea
                 when it was pitched initially. We were also unsure of how the game will pan out in a 3D enrivonment as most existing games like "Oxygen Not Included" within the genre were 2D. Because of this, we ended up 
@@ -95,7 +97,6 @@ const Apotcalypse = forwardRef((props, ref) =>
                 the initial game concept does not work well in a 3D environment which ultimately directed the team in the proper direction. While it was exhausting, it was completely necessary. I must say, the final product ended up being
                 something that I'm very sastisfied with. Being extremely iffy on the game idea when the project first started, my opinions have been pleasantly changed and Apotcalypse is now a project that I hold close to heart.
             </p>
-            <img src={CutsceneIntro} alt="" />
             <h3>Iterations</h3>
             <p>
                 The initial game concept was actually drastically different from the end product. We had a circular pot as our environment, and each floor was divided into 4 quadrants. Players were required to spin the pot around it's
@@ -142,7 +143,7 @@ const Apotcalypse = forwardRef((props, ref) =>
     // Delegate rendering to ProjectEntry component
     return (
         <ProjectEntry ref={ref} contentCallback={() => renderObj} 
-        bannerImg={CutsceneIntro} fadeScreen={true} 
+        bannerImg={FruletsHappy} fadeScreen={true} 
         projectPrimaryTitle={projectTitle}
         playLink="https://app.box.com/s/gp8xfj1r0tn2p44ygrj9zvhov0zf6943"
         btnText="View Full Info"/>
