@@ -143,7 +143,7 @@ const Apotcalypse = forwardRef((props, ref) =>
     // Delegate rendering to ProjectEntry component
     return (
         <ProjectEntry ref={ref} contentCallback={() => renderObj} 
-        bannerImg={FruletsHappy} fadeScreen={true} 
+        bannerImg={BannerImg} fadeScreen={true} 
         projectPrimaryTitle={projectTitle}
         playLink="https://app.box.com/s/gp8xfj1r0tn2p44ygrj9zvhov0zf6943"
         btnText="View Full Info"/>
