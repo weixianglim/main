@@ -90,7 +90,7 @@ const Apotcalypse = forwardRef((props, ref) =>
             <h3>Challenges</h3>
             <img src={CutsceneIntro} alt="" />
             <p>
-                We faced many challenges during the initial stage of the project. For starters, the game idea itself was obscure; all of us on the programming team were very new to the genre and there were many misconceptions of the game idea
+                We faced many challenges during the initial stage of the project. For starters, the game idea itself was obscure; everyone on the team was very new to the genre and there were many misconceptions of the game idea
                 when it was pitched initially. We were also unsure of how the game will pan out in a 3D enrivonment as most existing games like "Oxygen Not Included" within the genre were 2D. Because of this, we ended up 
                 making several revamps and iterations throughout the course of this project which naturally ate up quite a large chunk of development time. As the technical lead, it was an arduous task to balance between engine development and 
                 constant integration of different iterations of the game concept into our custom engine. However, I'd say that it was overall extremely helpful. Thanks to the iteration process, we realised that

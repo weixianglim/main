@@ -72,7 +72,7 @@ const Trapped = forwardRef((props, ref) =>
              <h3>Reason Behind The Concept</h3>
              <p>
                 A “dark maze” was chosen to simulate a “dark closet” that the protagonist is trapped in. I want to present the idea of our protagonist “exploring his sexuality” and a maze caters for this perfectly. The blue (male) 
-                and pink (female) objects are synonymous to the choices that he makes while exploring his sexuality – does he conform to the heteronormative society or stay true to himself? Additionally, texts will be splattered across 
+                and pink (female) objects symbolizes the choices that he makes while exploring his sexuality – does he conform to the heteronormative society or stay true to himself? Additionally, texts will be splattered across 
                 the screen each time the player picks up an object to simulate the public’s reactions to each choice. Picking up the blue object will invoke words like “disgusting”, “absolutely horrendous”, etc. while picking up the 
                 pink object will invoke more pleasant phrases like “you two look good together”, “lovely couple”, etc. These feelings would hopefully put players into the shoes of an individual who is struggling with their sexuality and 
                 facing public / social stigmatization along the way. The main goal of the game is to educate and expose players to the topic while gaining empathy in the process. 

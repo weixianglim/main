@@ -99,7 +99,7 @@ const Illan = forwardRef((props, ref) =>
             <img src={IllanPlanet} alt="" />
             <p>
                 The environment of Illan varies from area to area, but he mainly lives in a fantasy world with vast plains, mountains and villages. Many of Illan's puzzles were tied to 
-                the in-game environment. The village area for example features puzzles involding elevation, portals and lifting objects. Players when faced with these puzzles usually do not 
+                the in-game environment. The village area for example features puzzles involving elevation, portals and lifting objects. Players when faced with these puzzles usually do not 
                 have all 5 of Illan's abilities available. They have to utilize whichever skill they have at the time to solve these mechanics. Many of these puzzles were also used 
                 as tutorials upon unlocking a new color. 
             </p>

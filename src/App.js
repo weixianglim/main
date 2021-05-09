@@ -32,7 +32,7 @@ function App()
                         <Route exact path='/mindovermatter' render={() => <MindOverMatter ref={navRef} />}/>
                         <Route exact path='/trapped' render={() => <Trapped ref={navRef} />}/>
                         <Route exact path='/apotcalypse' render={() => <Apotcalypse ref={navRef} />}/>
-                        <Route exact path='/fishieeprotecc' render={() => <FishieeProtecc ref={navRef} />}/>
+                        <Route exact path='/fishieprotecc' render={() => <FishieeProtecc ref={navRef} />}/>
                         <Route exact path='/illan' render={() => <Illan ref={navRef} />}/>
                     </Switch>
                     <Footer ref={footerRef} navElem={navRef}/>
