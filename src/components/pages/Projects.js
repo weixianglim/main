@@ -24,7 +24,7 @@ const Projects = forwardRef((props, ref) =>
     const [arrCardsMain, ] = useState(
         [
             {src: MindOverMatterTn, desc: "MindOverMatter is a 2D-puzzle platformer built from scratch on a custom 2D game engine. You play as a protagonist possessing the ability to freely toggle between 3 states - Solid, Liquid, and Gas. Each state allows you to maneuver through different environmental obstacles while providing you with unique skills and abilities.", label: "MindOverMatter", linkTo: "/MindOverMatter"},
-            {src: ApotcalypseTn, desc: "Apotcalypse is a colony simulator built on a custom 3D engine whereby the player has to manage a very crucial resource - Frulets! These cute bubbly creatures are indispensable and are necessary to stop the impending Apotcalypse.", label: "Apotcalypse", linkTo: "/apotcalypse"}
+            {src: ApotcalypseTn, desc: "Apotcalypse is a colony simulator built on a custom 3D game engine whereby the player has to manage a very crucial resource - Frulets! These cute bubbly creatures are indispensable and are necessary to stop the impending Apotcalypse.", label: "Apotcalypse", linkTo: "/apotcalypse"}
         ]
     );
     const [arrCardsRest, ] = useState(
