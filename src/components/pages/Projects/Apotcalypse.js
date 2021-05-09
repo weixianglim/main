@@ -90,10 +90,10 @@ const Apotcalypse = forwardRef((props, ref) =>
             <h3>Challenges</h3>
             <img src={CutsceneIntro} alt="" />
             <p>
-                The project started off pretty rough. For starters, the game idea itself was obscure; all of us on the programming team were very new to the genre and there were many misconceptions of the game idea
+                We faced many challenges during the initial stage of the project. For starters, the game idea itself was obscure; all of us on the programming team were very new to the genre and there were many misconceptions of the game idea
                 when it was pitched initially. We were also unsure of how the game will pan out in a 3D enrivonment as most existing games like "Oxygen Not Included" within the genre were 2D. Because of this, we ended up 
                 making several revamps and iterations throughout the course of this project which naturally ate up quite a large chunk of development time. As the technical lead, it was an arduous task to balance between engine development and 
-                constant integration of different iterations of the game concept into our custom engine. However, I'd say that it was overall quite useful. Thanks to the iteration process, we realised that
+                constant integration of different iterations of the game concept into our custom engine. However, I'd say that it was overall extremely helpful. Thanks to the iteration process, we realised that
                 the initial game concept does not work well in a 3D environment which ultimately directed the team in the proper direction. While it was exhausting, it was completely necessary. I must say, the final product ended up being
                 something that I'm very sastisfied with. Being extremely iffy on the game idea when the project first started, my opinions have been pleasantly changed and Apotcalypse is now a project that I hold close to heart.
             </p>
@@ -133,8 +133,8 @@ const Apotcalypse = forwardRef((props, ref) =>
             <img src={MushroomGlow} alt="" />
             <h3>Closing Thoughts</h3>
             <p>
-                Developing Apotcalypse was a grueling but extremely rewarding process. Being my first 3D game developed in a custom engine, I have learnt alot of from this project ranging from the graphics pipeline (opengl, post-processing)
-                to the engine architecture. The end result of all our hard work is something I'm extremely proud of and I'd love to get into more of the development process. However, the best way to enjoy the game is to play
+                Developing Apotcalypse was a grueling but extremely rewarding process. Being my first 3D game developed in a custom engine, I have learnt alot of from this project ranging from technical skills to the importance
+                of team communication. The end result of all our hard work is something I'm extremely proud of. I'd love to get into more of the development process. However, the best way to enjoy the game is to play
                 it yourself! If you're interested, feel free to download the installer of the game by following the link below.
             </p><br />
         </React.Fragment>

@@ -45,7 +45,7 @@ const Trapped = forwardRef((props, ref) =>
             <h3>Overview</h3>
              <p>
                 Trapped follows the life of a closeted protagonist as he tries to maneuver and escape through a dark maze. The game was developed as a solo project for one of my modules
-                taken in Spring. In this final project, a central theme was chosen and a creative piece will be designed around this central theme in any desired medium.
+                taken in spring. In this final project, a central theme was chosen and a creative piece will be designed around this central theme in any desired medium.
                 The theme for this project is "Sexuality", and I've decided to use a game as a medium for this creative project. A game has a very unique trait that the other mediums do not 
                 provide - player interaction. I took advantage of this by employing "choice" as a central pillar of the game.  
              </p>
@@ -103,7 +103,7 @@ const Trapped = forwardRef((props, ref) =>
              <p>
                 As players continue to follow the blue route, they will arrive at the blue ending. In the blue ending, the player will see an opening in the maze and will automatically walk out of the maze via a long bridge. A body of water around the bridge 
                 can be seen, and another blue character will be waiting at the end of the bridge. This time, the screen will not fade to black and white and will remain brightly colored. 
-                This ending was chosen to draw a steep contrast of the large vast open sea against the claustrophobic maze that the player was in just moments before. It also signifies that our protagonist has sucessfully walked out of the closet. 
+                This ending was chosen to draw a steep contrast of the large vast open sea against the claustrophobic maze that the player was in just moments before. It also signifies that our protagonist has successfully walked out of the closet. 
              </p>
              <img src={BlueEnding} alt="" />
              <h3>Final Reflections And Thoughts</h3>
