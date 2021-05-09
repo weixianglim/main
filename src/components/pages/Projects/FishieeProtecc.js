@@ -122,8 +122,8 @@ const FishieeProtecc = forwardRef((props, ref) =>
             <h3>Closing Thoughts</h3>
             <p>
                 By using only 2 main mechanics, we were able to toggle the values (spawn amount, spawn interval, speed of descent, speed of chasing, etc.) and created 6 varying levels of difficulty and gameplay! Each of these 
-                levels were drastically different from the rest, and we were frankly quite surprised by the variance that 2 simple mechanics can provide. As someone that loves to employ fancy mechanics in games, Fishie Protecc has taught me that 
-                sometimes, simple mechanics can actually make the game alot more fun! Fishie Protecc ended up being one of the most unique games amongst the freshman cohort and was nominated for Gumi Asia's Best Freshman Game. 
+                levels were drastically different from the rest, and we were quite surprised by the variance that 2 simple mechanics can provide. As someone that loves to employ fancy mechanics in games, Fishie Protecc has taught me that 
+                sometimes, simple mechanics can actually make the game alot more fun! Fishie Protecc ended up being one of the most unique games amongst the freshmen cohort and was nominated for Gumi Asia's Best Freshman Game. 
             </p><br />
         </React.Fragment>
     );
