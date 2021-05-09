@@ -67,7 +67,7 @@ const FishieeProtecc = forwardRef((props, ref) =>
             <p>
                 Fishie Protecc is a fast-paced game which will strain the players reaction speeds and planning abilities. It was developed by a team of 4 programmers 
                 in one semester during my freshman year. Like the name of the game suggests, the aim of Fishie Protecc is to protect the fishes from environmental hazards.
-                The player, a ghost fish, has the ability to possess any other fish within the vicinity to get them out of harm's way. As the game progresses, special fishies will 
+                The player, a ghost fish, has the ability to possess any other fish within the vicinity to get them out of harm's way. As the game progresses, special fishes will 
                 also be available which the player can possess and destroy or hinder hazards with. 
                 Fishie Protecc was nominated for Gumi Asia's Best Freshman Game award. 
             </p>
@@ -99,12 +99,12 @@ const FishieeProtecc = forwardRef((props, ref) =>
             <h3>Hazards - Nets</h3>
             <p>
                 We thought of many cool hazards for the game but ultimately settled on 2 main ones to prevent overbloating the gameplay. One of the main hazards were fishing nets, which drops from the ships patrolling above the 
-                waters. These nets have the ability to capture a couple of fishes in one go. They have a "drop indicator" which will briefly appear before to show their path of descent. The main way to 
+                waters. These nets have the ability to capture a couple of fishes in one go. They have a "drop indicator" which will briefly appear to show their path of descent. One way to 
                 tackle this form of hazard was to possess every fish within the indicator area and get them out of harm's way. 
             </p>
             <img src={NetsPossess} alt="" />
             <p>
-                The second way to deal with nets is via the special fish - the piranha. It chew through the nets and free any fishes caught. 
+                The second way to deal with nets is via the special fish - the piranha. It has the ability to chew through the nets and free any fishes caught. 
             </p>
             <img src={NetsPiranha} alt="" />
             <h3>Hazards - Drones</h3>
