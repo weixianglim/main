@@ -34,8 +34,8 @@
     "reactPlayerWistia.js.map": "/home/static/js/reactPlayerWistia.d77946ba.chunk.js.map",
     "reactPlayerYouTube.js": "/home/static/js/reactPlayerYouTube.93fc0f3d.chunk.js",
     "reactPlayerYouTube.js.map": "/home/static/js/reactPlayerYouTube.93fc0f3d.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.0ffda1fd.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.0ffda1fd.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.a85315c0.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.a85315c0.js.map",
     "static/js/17.cfc11a43.chunk.js": "/home/static/js/17.cfc11a43.chunk.js",
     "static/js/17.cfc11a43.chunk.js.map": "/home/static/js/17.cfc11a43.chunk.js.map",
     "static/css/18.12523550.chunk.css": "/home/static/css/18.12523550.chunk.css",
@@ -48,8 +48,8 @@
     "static/js/20.aa435697.chunk.js": "/home/static/js/20.aa435697.chunk.js",
     "static/js/20.aa435697.chunk.js.map": "/home/static/js/20.aa435697.chunk.js.map",
     "static/css/21.12523550.chunk.css": "/home/static/css/21.12523550.chunk.css",
-    "static/js/21.98795d7c.chunk.js": "/home/static/js/21.98795d7c.chunk.js",
-    "static/js/21.98795d7c.chunk.js.map": "/home/static/js/21.98795d7c.chunk.js.map",
+    "static/js/21.b745628f.chunk.js": "/home/static/js/21.b745628f.chunk.js",
+    "static/js/21.b745628f.chunk.js.map": "/home/static/js/21.b745628f.chunk.js.map",
     "static/css/22.12523550.chunk.css": "/home/static/css/22.12523550.chunk.css",
     "static/js/22.7d0da7c8.chunk.js": "/home/static/js/22.7d0da7c8.chunk.js",
     "static/js/22.7d0da7c8.chunk.js.map": "/home/static/js/22.7d0da7c8.chunk.js.map",
@@ -129,7 +129,7 @@
     "static/media/python.0a72d07d.png": "/home/static/media/python.0a72d07d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ffda1fd.js",
+    "static/js/runtime-main.a85315c0.js",
     "static/js/17.cfc11a43.chunk.js",
     "static/css/main.742be134.chunk.css",
     "static/js/main.e44bfa40.chunk.js"
