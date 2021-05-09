@@ -71,12 +71,12 @@ const Apotcalypse = forwardRef((props, ref) =>
                     <FontAwesomeIcon icon={faAward}/><span className="awardEntry">Best User Interface (Finalist), Digipen Game Awards</span><br />
                 </p>
             </div> */}
-            {/* <div className="trailer">
+            <div className="trailer">
                 <h3>Video Trailer</h3>
                 <div className="player-wrapper">
-                    <ReactPlayer className="react-player" width="100%" height="100%" url="https://www.youtube.com/watch?v=a8kgGU3oxTc" />
+                    <ReactPlayer className="react-player" width="100%" height="100%" url="https://www.youtube.com/watch?v=-qMEVvWeruA" />
                 </div>
-            </div> */}
+            </div>
             
             <h3>Overview</h3>
             <img src={MainMenu} alt="" />
