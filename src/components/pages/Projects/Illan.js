@@ -19,6 +19,7 @@ import IllanAbilities2 from "../../../images/Projects/Illan/IllanAbilities2.jpg"
 import IllanRed from "../../../images/Projects/Illan/IllanRed.png"
 import IllanColored from "../../../images/Projects/Illan/IllanColored.png"
 import IllanTeam from "../../../images/Projects/Illan/IllanTeam.jpg"
+import IllanSleep from "../../../images/Projects/Illan/IllanSleep.png"
 
 // Forward ref is used to propagate the element up to the parent.
 // Currently used to scroll from navbar to this element.
@@ -33,7 +34,7 @@ const Illan = forwardRef((props, ref) =>
             <h1>{projectTitle}</h1>
             <h2>Development</h2>
             <h3>Project Info</h3>
-            <img src={BannerImg} alt="" />
+            <img src={IllanSleep} alt="" />
             <div className="projectInfo">
                 <p>
                     <span className="tag">Themes</span>3D Exploration<br /><span />
