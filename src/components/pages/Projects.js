@@ -30,8 +30,8 @@ const Projects = forwardRef((props, ref) =>
     const [arrCardsRest, ] = useState(
         [
             {src: TrappedTn, desc: "Trapped follows the life of a closeted protagonist as he tries to maneuver and escape through a dark maze. Throughout this journey, he is faced with societal judgement, fear and challenges. He has to make decisions along the maze which will lead him to different endings. Which route will he ultimately end up in?", label: "Trapped", linkTo: "/trapped"},
-            {src: FishieeTn, desc: "FishieProtecc is a fast-paced game which will strain the players reaction speeds and planning abilities. It is my freshman project in DigiPen and was nominated for Gumi Asia's Best Freshman Game award.", label: "FishieeProtecc", linkTo: "/fishieeprotecc"},
-            {src: IllanTn, desc: "Illan: Shades of Memories is a 3D exploration game made in Unity Engine and is developed with the PS4 in mind as it's primary intended target platform.", label: "Illan: Shades of Memories", linkTo: "/illan"}
+            {src: IllanTn, desc: "Illan wakes up and finds himself in a world dyed in black and white. He realised later on that he possesses the power to restore colors to the world. As Illan progresses and solves various puzzles throughout his journey, parts of the map will get lit up and colored. Eventually, Illan will regains memories and restores his world back to its original state. ", label: "Illan: Shades of Memories", linkTo: "/illan"},
+            {src: FishieeTn, desc: "FishieProtecc is a fast-paced game which will strain the players reaction speeds and planning abilities. It is my freshman project in DigiPen and was nominated for Gumi Asia's Best Freshman Game award.", label: "FishieeProtecc", linkTo: "/fishieeprotecc"}
         ]
     );
 
