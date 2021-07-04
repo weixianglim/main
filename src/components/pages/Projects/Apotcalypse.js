@@ -92,10 +92,11 @@ const Apotcalypse = forwardRef((props, ref) =>
             <p>
                 We faced many challenges during the initial stage of the project. For starters, the game idea itself was obscure; everyone on the team was very new to the genre and there were many misconceptions of the game idea
                 when it was pitched initially. We were also unsure of how the game will pan out in a 3D enrivonment as most existing games like "Oxygen Not Included" within the genre were 2D. Because of this, we ended up 
-                making several revamps and iterations throughout the course of this project which naturally ate up quite a large chunk of development time. As the technical lead, it was an arduous task to balance between engine development and 
-                constant integration of different iterations of the game concept into our custom engine. However, I'd say that it was overall extremely helpful. Thanks to the iteration process, we realised that
-                the initial game concept does not work well in a 3D environment which ultimately directed the team in the proper direction. While it was exhausting, it was completely necessary. I must say, the final product ended up being
-                something that I'm very sastisfied with. Being extremely iffy on the game idea when the project first started, my opinions have been pleasantly changed and Apotcalypse is now a project that I hold close to heart.
+                making several revamps and iterations throughout the course of this project which naturally ate up quite a large chunk of development time. 
+                Thankfully, the team gelled together really well during the whole ordeal and held many meetings to iterate the whole game idea from the bottom up. 
+                Thanks to the iteration process, we realised that
+                the initial game concept does not work well in a 3D environment which ultimately directed the team in the proper direction. The final product ended up being
+                something that I'm very sastisfied with and Apotcalypse has become a project that I hold really close to heart!
             </p>
             <h3>Iterations</h3>
             <p>

@@ -28,16 +28,16 @@ const Footer = forwardRef((props, ref) =>
                 </p>
                 <p className="footer-email-text">
                     If you'd like to work together on an app / game, or simply
-                    wish to have a quick chat, feel free to drop a message below.
+                    wish to have a quick chat, feel free to drop me a message!
                 </p>
-                <div className="input-areas">
+                {/* <div className="input-areas">
                     <form>
                         <input type="name" name="name" placeholder="Name" className="footer-input" /><br/>
                         <input type="email" name="email" placeholder="Email address" className="footer-input" /><br/>
                         <textarea type="message" name="message" placeholder="" className="footer-input-message" /><br/>
                         <Button buttonStyle="btn--outline">Send</Button>
                     </form>
-                </div>
+                </div> */}
             </section>
 
             {/* Contact info segment */}

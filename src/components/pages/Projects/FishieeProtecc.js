@@ -81,8 +81,8 @@ const FishieeProtecc = forwardRef((props, ref) =>
             </p>
             <h3>Development</h3>
             <p>
-                Being the lead programmer, I had to develop the framework and engine for the game. To help mitigate the workload of a small team, we were provided a framework 
-                to aid with the graphics environment and windows creation for our project. However, I decided to take on the challenge of using raw OpenGL and freeglut instead. Even though this 
+                As the lead programmer, I had the opportunity to develop the framework and engine for the game. To help mitigate the workload of a small team, we were provided a framework 
+                to aid with the graphics environment and windows creation for our project. However, after sitting down and discussing with the team, we decided to take on the challenge of using raw OpenGL and freeglut instead. Even though this 
                 ended up being more time-consuming, it ended up paying off as we had more low-level control when it comes to manipulating texcoords for our spritesheets and debugging. Learning opengl in this project also ultimately 
                 aided me in future projects like{" "}
                 <Link to="/mindovermatter">Mind Over Matter</Link>{" "}and{" "}

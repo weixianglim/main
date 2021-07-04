@@ -79,9 +79,7 @@ const MindOverMatter = forwardRef((props, ref) =>
             </p>
             <h3>Challenges</h3>
             <p>
-                Being the lead programmer for the project, I handled the majority of the engine, 
-                gameplay, graphics and scripting codes while also managing the delegation of programming tasks. I was also the co-producer and acted as the 
-                bridge between the technical team and designers. The biggest challenge I faced was optimization. The maps we were building were big - and I mean, really big!
+                The biggest challenge we faced was optimization. The maps we were building were big - and I mean, really big!
                 They span across large areas and even required multiple layers to cater for parallax-scrolling.
             </p>
             <img src={EnvironmentBreakdown} alt="" />
