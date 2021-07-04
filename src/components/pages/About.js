@@ -15,6 +15,8 @@ import PythonLogo from "../../images/Skillsets/python.png"
 import HtmlLogo from "../../images/Skillsets/html.png"
 import CssLogo from "../../images/Skillsets/css.png"
 import CsharpLogo from "../../images/Skillsets/csharp.png"
+import ImGuiLogo from "../../images/Skillsets/imgui.png"
+import JupyterLogo from "../../images/Skillsets/jupyter.png"
 
 const About = forwardRef((props, ref) => 
 {
@@ -29,7 +31,9 @@ const About = forwardRef((props, ref) =>
         {src: PythonLogo, text: "Python"},
         {src: HtmlLogo, text: "HTML"},
         {src: CssLogo, text: "CSS"},
-        {src: CsharpLogo, text: "C#"}
+        {src: CsharpLogo, text: "C#"},
+        {src: ImGuiLogo, text: "ImGui"},
+        {src: JupyterLogo, text: "Jupyter"}
     ]);
 
     // Called once on page load to always start at top of page
