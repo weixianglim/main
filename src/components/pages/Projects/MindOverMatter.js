@@ -43,9 +43,9 @@ const MindOverMatter = forwardRef((props, ref) =>
                                                              OpenGL<br /><span className="endLine" />
 
                     <span className="tag">My Roles</span>Technical Lead<br /><span />
-                                                      Graphics Lead<br /><span />
-                                                      Engine Architecture Lead<br /><span />
-                                                      Technical Producer<br /><span className="endLine" />
+                                                         Graphics Lead<br /><span />
+                                                         Engine Architecture Lead<br /><span />
+                                                         Technical Producer<br /><span className="endLine" />
 
                     <span className="tag">Contributions</span>Game Engine Architecture<br /><span />
                                                               Graphics Environment (OpenGL)<br /><span />
@@ -54,6 +54,20 @@ const MindOverMatter = forwardRef((props, ref) =>
                                                               Tilemapping<br /><span />
                                                               Level Editor
                 </p><span className="endLine" />
+            </div>
+            <div className="teamInfo">
+                <h3>The Team</h3>
+                <p>
+                <span className="tag">Producer</span>Chow Jun Hao<br /><span className="endLine" />
+                <span className="tag">Design Lead</span>Keith Wong Khai Fun<br /><span className="endLine" />
+                <span className="tag">Environment Lead</span>Aloysius Ho Chun Keen<br /><span className="endLine" />
+                <span className="tag">Animation Lead</span>Cornelius Lum Jing Yong<br /><span className="endLine" />
+                <span className="tag">Tech Lead</span>Lim Wei Xiang<br /><span className="endLine" />
+                <span className="tag">Physics Champion</span>Kevin Heng Zhirong<br /><span className="endLine" />
+                <span className="tag">Editor Champion</span>Andy Chan Kin Sum<br /><span className="endLine" />
+                <span className="tag">AI Champion</span>Yee Yi Lin<br /><span className="endLine" />
+                <span className="tag">Camera Champion</span>Lee Jian Yan<br /><span className="endLine" />
+                </p>
             </div>
             <div className="awardsInfo">
                 <h3>Awards <FontAwesomeIcon icon={faMedal}/></h3>
@@ -73,7 +87,7 @@ const MindOverMatter = forwardRef((props, ref) =>
             
             <h3>Overview</h3>
             <p>
-                Mind Over Matter was developed by a team of 4 programmers, 2 artists, and 2 designers over the course of 2 semesters. It is a 2D-puzzle platformer built from scratch on a custom 2D game engine. 
+                Mind Over Matter was developed by a team of 5 programmers, 2 artists, and 2 designers over the course of 2 semesters. It is a 2D-puzzle platformer built from scratch on a custom 2D game engine. 
                 You play as a protagonist possessing the ability to freely toggle between 3 states - Solid, Liquid, and Gas. Each state allows you to maneuver through different 
                 environmental obstacles while providing you with unique skills and abilities.
             </p>

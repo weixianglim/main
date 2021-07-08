@@ -50,6 +50,17 @@ const FishieeProtecc = forwardRef((props, ref) =>
                                                               Gameplay Programming
                 </p><span className="endLine" />
             </div>
+
+            <div className="teamInfo">
+                <h3>The Team</h3>
+                <p>
+                <span className="tag">Producer</span>Darren Low Seng Tat<br /><span className="endLine" />
+                <span className="tag">Design Lead</span>Kevin Heng Zhirong<br /><span className="endLine" />
+                <span className="tag">Product Manager</span>Mohamad Shahril<br /><span className="endLine" />
+                <span className="tag">Tech Lead</span>Lim Wei Xiang<br /><span className="endLine" />
+                </p>
+            </div>
+
             <div className="awardsInfo">
                 <h3>Awards <FontAwesomeIcon icon={faMedal}/></h3>
                 <p>

@@ -55,8 +55,25 @@
     width: 120px;
 }
 
+.teamInfo {
+    margin-bottom: 20px;
+}
+
+.teamInfo span {
+    color:rgb(50, 100, 100);
+    /* background-color: seagreen; */
+    text-decoration: bold;
+    display: inline-block;
+    width: 180px;
+}
+
 .projectInfo span.endLine {
     margin-bottom: 30px;
+    width: 0px;
+}
+
+.teamInfo span.endLine {
+    margin-bottom: 0px;
     width: 0px;
 }
 
@@ -171,6 +188,14 @@
 
     .projectEntryContainer .projectInfo {
         font-size: 14px;
+    }
+
+    .teamInfo {
+        font-size: 14px;
+    }
+
+    .teamInfo span {
+        width: 160px;
     }
 
     .projectEntryEndButtons {

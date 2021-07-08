@@ -62,6 +62,22 @@ const Apotcalypse = forwardRef((props, ref) =>
                                                               Level Editor
                 </p><span className="endLine" />
             </div>
+
+            <div className="teamInfo">
+                <h3>The Team</h3>
+                <p>
+                <span className="tag">Producer</span>Chow Jun Hao<br /><span className="endLine" />
+                <span className="tag">Design Lead</span>Darren Ang Jun Kai<br /><span className="endLine" />
+                <span className="tag">Tech Lead</span>Lim Wei Xiang<br /><span className="endLine" />
+                <span className="tag">Graphics Champion</span>Eric Aw Yuh Liang<br /><span className="endLine" />
+                <span className="tag">Tools Champion</span>Joel Ong Jia Quan<br /><span className="endLine" />
+                <span className="tag">A.I. Champion</span>Zenson Lim Zhan Shin<br /><span className="endLine" />
+                <span className="tag">Physics Champion</span>Kevin Heng Zhirong<br /><span className="endLine" />
+                <span className="tag">Gameplay Champion</span>Andy Chan Kin Sum<br /><span className="endLine" />
+                <span className="tag">Music Champion</span>Yee Yi Lin<br /><span className="endLine" />
+                </p>
+            </div>
+
             {/* <div className="awardsInfo">
                 <h3>Awards <FontAwesomeIcon icon={faMedal}/></h3>
                 <p>
