@@ -55,6 +55,11 @@
     width: 120px;
 }
 
+.projectInfo span.endLine {
+    margin-bottom: 30px;
+    width: 0px;
+}
+
 .teamInfo {
     margin-bottom: 20px;
 }
@@ -67,14 +72,13 @@
     width: 180px;
 }
 
-.projectInfo span.endLine {
-    margin-bottom: 30px;
-    width: 0px;
-}
-
 .teamInfo span.endLine {
     margin-bottom: 0px;
     width: 0px;
+}
+
+.teamInfo h3 {
+    margin-top: 10px;
 }
 
 .projectEntryContainer .projectInfo {
