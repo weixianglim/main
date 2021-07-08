@@ -47,7 +47,6 @@ const Apotcalypse = forwardRef((props, ref) =>
                                                              OpenGL<br /><span className="endLine" />
 
                     <span className="tag">My Roles</span>Technical Lead<br /><span />
-                                                         Graphics Lead<br /><span />
                                                          Engine Architecture Lead<br /><span />
                                                          Technical Producer<br /><span className="endLine" />
 

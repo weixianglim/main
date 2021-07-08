@@ -86,7 +86,7 @@ const Illan = forwardRef((props, ref) =>
             <p>
                 Illan: Shades of Memories is a 3D exploration game made in Unity Engine. It is my Final Year Project in Nanyang Polytechnic. 
                 Having taken over the previous team for the project, I was tasked as 
-                the technical lead. The team consists of 2 programmers and 3 artists and the project was developed over the course of 3 months. 
+                the technical lead. The new team consists of 2 programmers and 3 artists and the project was developed over the course of 3 months. 
                 Illan: Shades of Memories was eventually green-lit on steam and was also featured on a section of Straits Times.
             </p>
             <img src={IllanTitle} alt="" />
