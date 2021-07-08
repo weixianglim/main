@@ -136,7 +136,7 @@ const Apotcalypse = forwardRef((props, ref) =>
             <p>
                 Developing Apotcalypse was a grueling but extremely rewarding process. Being my first 3D game developed in a custom engine, I have learnt alot of from this project ranging from technical skills to the importance
                 of team communication. The end result of all our hard work is something I'm extremely proud of. I'd love to get into more of the development process. However, the best way to enjoy the game is to play
-                it yourself! If you're interested, feel free to download the installer of the game by following the link below.
+                it yourself. If you're interested, feel free to download the game via the link below!
             </p><br />
         </React.Fragment>
     );
@@ -146,7 +146,7 @@ const Apotcalypse = forwardRef((props, ref) =>
         <ProjectEntry ref={ref} contentCallback={() => renderObj} 
         bannerImg={BannerImg} fadeScreen={true} 
         projectPrimaryTitle={projectTitle}
-        playLink="https://app.box.com/s/gp8xfj1r0tn2p44ygrj9zvhov0zf6943"
+        playLink="https://games.digipen.edu/games/apotcalypse"
         btnText="View Full Info"/>
     );
 })
