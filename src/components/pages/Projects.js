@@ -4,7 +4,7 @@ import Cards from '../Cards';
 import Loading from "../Loading"
 
 // Importing assets manually cause webpack..
-import ProjectsPageBg from "../../images/ProjectsBG.jpg"
+import ProjectsPageBg from "../../images/ProjectsBG.gif"
 
 // Project thumnails..
 import MindOverMatterTn from "../../images/Projects/MindOverMatter/MindOverMatter.png"

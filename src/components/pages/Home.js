@@ -4,7 +4,7 @@ import About from "./About"
 import Loading from "../Loading"
 
 // Importing assets manually cause webpack..
-import HomePageBg from "../../images/HomeBG.jpg"
+import HomePageBg from "../../images/HomeBG.gif"
 
 // Lazy load components
 const Banner = lazy(()=>import("../Banner"));

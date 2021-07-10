@@ -1,4 +1,4 @@
-video, .banner-container > img, .fadeScreen {
+video, .banner-container > img, .banner-container .bannerImg, .fadeScreen {
     object-fit: cover;
     width: 100%;
     height: 100%;

@@ -110,8 +110,9 @@ const Trapped = forwardRef((props, ref) =>
              <p>
                 I have always wanted to design a game and tell a story, but most game projects I have been a part of have designated game designers for the job. It was extremely refreshing to have full creative control to produce a game with the desired mechanics, feel,
                 and story exactly how I had intended. Thinking back, I also really appreciate the fact that this is an individual project. I am working on a rather sensitive subject and it would be extremely hard to convince my classmates to be onboard the game idea. If you are 
-                interested, feel free to download the PC / Mac version of the game by following the link below. I also have a web version, albeit less optimized, hosted on my webpage which you can play directly on the browser{" "}
-                <a href="https://weixianglim.github.io/Trapped/" target="_blank" rel="noreferrer">here</a>. 
+                interested, feel free to download the PC / Mac version of the game by following the link {" "}
+                <a href="https://app.box.com/s/k7zrcq1j5422qfo68u0ff1ud5uamy1id" target="_blank" rel="noreferrer">here</a>. 
+                Alternatively, you can also play it directly on the browser by following the link below.
              </p><br />
          </React.Fragment>
      );
@@ -122,7 +123,7 @@ const Trapped = forwardRef((props, ref) =>
          bannerImg={BannerImg} fadeScreen={true} 
          projectPrimaryTitle={projectTitle}
          btnText="View Full Info"
-         playLink="https://app.box.com/s/k7zrcq1j5422qfo68u0ff1ud5uamy1id"
+         playLink="https://weixianglim.github.io/Trapped/"
          />
      );
 })
