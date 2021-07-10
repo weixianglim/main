@@ -23,7 +23,7 @@ function App()
   // React router navigation
   return (
         <React.Fragment>
-            <Suspense fallback={<Loading />}>
+            <Suspense fallback={<Loading text={true} />}>
                 <HashRouter basename="/">
                     <Navbar footerElem={footerRef} navElem={navRef}/>
                     <Switch>

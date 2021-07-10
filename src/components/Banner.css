@@ -1,4 +1,6 @@
-video, .banner-container > img, .banner-container .bannerImg, .fadeScreen {
+video, .fadeScreen, 
+.banner-container > img, .banner-container .bannerImg,
+.banner-container-black > img, .banner-container-black .bannerImg {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -10,7 +12,7 @@ video, .banner-container > img, .banner-container .bannerImg, .fadeScreen {
     background-color: rgba(0,0,0,0.5);
 }
 
-.banner-container {
+.banner-container, .banner-container-black {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -21,7 +23,11 @@ video, .banner-container > img, .banner-container .bannerImg, .fadeScreen {
     justify-content: center;
 }
 
-.banner-container > h1 {
+.banner-container-black {
+    background-color: #1b1b1b;
+}
+
+.banner-container > h1, .banner-container-black > h1 {
     color: white;
     font-size: 55px;
     margin-top: -100px;
@@ -31,7 +37,7 @@ video, .banner-container > img, .banner-container .bannerImg, .fadeScreen {
     margin-bottom: -1px;
 }
 
-.banner-container > h2 {
+.banner-container > h2, .banner-container-black > h2 {
     color: white;
     font-size: 60px;
     margin-top: -100px;
@@ -40,7 +46,7 @@ video, .banner-container > img, .banner-container .bannerImg, .fadeScreen {
     margin-top: 1px;
 }
 
-.banner-container > p {
+.banner-container > p, .banner-container-black > p {
     margin-top: 8px;
     color: white;
     font-size: 22px;
@@ -67,37 +73,37 @@ video, .banner-container > img, .banner-container .bannerImg, .fadeScreen {
 
 @media screen and (max-width: 960px) 
 {
-    .banner-container > h1 {
+    .banner-container > h1, .banner-container-black > h1 {
         font-size: 45px;
         margin-top: -150px;
         margin-bottom: 0px;
     }
 
-    .banner-container > h2 {
+    .banner-container > h2, .banner-container-black > h2 {
         color: white;
         font-size: 50px;
         margin-top: 1px;
     }
 
-    .banner-container > p {
+    .banner-container > p, .banner-container-black > p {
         font-size: 19px;
     }
 }
 
 @media screen and (max-width: 768px)
 {
-    .banner-container > h1 {
+    .banner-container > h1, .banner-container-black > h1 {
         font-size: 30px;
         margin-top: -100px;
     }
 
-    .banner-container > h2 {
+    .banner-container > h2, .banner-container-black > h2 {
         color: white;
         font-size: 35px;
         margin-top: 1px;
     }
 
-    .banner-container > p {
+    .banner-container > p, .banner-container-black > p {
         font-size: 15px;
     }
 
@@ -110,7 +116,7 @@ video, .banner-container > img, .banner-container .bannerImg, .fadeScreen {
         width: 100%;
     }
 
-    .banner-container {
+    .banner-container, .banner-container-black {
         margin-top: -10%; /* Fixes 100vh mobile issue */
     }
 }

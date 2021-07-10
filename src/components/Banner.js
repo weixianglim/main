@@ -19,21 +19,21 @@ const Banner = (props) =>
 
     return (
         <Suspense fallback={<Loading />}>
-            <div className="banner-container">
+            <div className={sourceLoaded ? "banner-container" : "banner-container-black"}>
                 {/* Display background image or video, if any. */}
-                { imgSrc && <img src={sourceLoaded || Black} alt=""/> }
-                { videoSrc && <video src={videoSrc} autoPlay loop muted /> }
+                { (sourceLoaded && <img src={sourceLoaded} alt=""/>) || <Loading /> }
+                { (sourceLoaded && <video src={videoSrc} autoPlay loop muted />) || <Loading /> }
 
                 {/* Display fade screen if desired */}
                 { fadeScreen && <div className="fadeScreen"></div>}
 
                 {/* Seconday main title is optional */}
-                { bannerPrimaryTitle && <h1>{bannerPrimaryTitle}</h1> }
-                { bannerSecondaryTitle && <h2>{bannerSecondaryTitle}</h2> }
-                { bannerSubTitle && <p>{bannerSubTitle}</p> }
+                { sourceLoaded && bannerPrimaryTitle && <h1>{bannerPrimaryTitle}</h1> }
+                { sourceLoaded && bannerSecondaryTitle && <h2>{bannerSecondaryTitle}</h2> }
+                { sourceLoaded && bannerSubTitle && <p>{bannerSubTitle}</p> }
 
                 {/* Banner button, will scroll to element on click */}
-                {btnText &&
+                {sourceLoaded && btnText &&
                 <div className="banner-btns">
                     <Button className="btn" buttonStyle="btn--outline" buttonSize="btn--large" elemRef={scrollTarget}>
                         {btnText}

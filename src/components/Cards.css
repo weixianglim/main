@@ -6,6 +6,7 @@
   
   h1 {
     text-align: center;
+    z-index: 0;
   }
   
   .cards_container {
