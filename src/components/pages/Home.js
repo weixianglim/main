@@ -25,7 +25,7 @@ const Home = forwardRef((props, ref) =>
                 <Banner scrollTarget={aboutRef} btnText="About Me"
                 bannerPrimaryTitle="Hi, my name is" 
                 bannerSecondaryTitle="Wei Xiang" 
-                bannerSubTitle="I make games and applications."
+                bannerSubTitle="I take pride in developing quality works."
                 imgSrc={HomePageBg}
                 />
                 <About ref={aboutRef} homeRef={ref} elemRef={aboutRef}/>
