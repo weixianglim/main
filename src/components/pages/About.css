@@ -27,8 +27,8 @@
     text-align: center;
     width: 50%;
     max-width: 250px;
-    border-radius: 50%;
-    box-shadow: rgb(30, 30, 30) 10px 10px 10px;
+    /* border-radius: 50%; */
+    /* box-shadow: rgb(30, 30, 30) 10px 10px 10px;  */
 }
 
 .skillsContainer {

@@ -4,7 +4,7 @@ import "./About.css"
 import { Button } from "../Button"
 
 // Importing images manually cause webpack is garbage....
-import AboutImage from "../../images/about_image.jpg"
+import AboutImage from "../../images/about_image.png"
 import CppLogo from "../../images/Skillsets/cppLogo.png"
 import CLogo from "../../images/Skillsets/cLogo.png"
 import UnityLogo from "../../images/Skillsets/unity.png"
