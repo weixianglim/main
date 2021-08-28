@@ -49,7 +49,7 @@ const About = forwardRef((props, ref) =>
                 <img src={AboutImage} alt=""></img>
                 <p>
                     An undergraduate in my final semester at DigiPen Institute of Technology (Singapore) pursuing a Bachelors of Science in Computer Science 
-                    in Real-Time Interactive Simulation, I have a deep passion for developing anything that peeks my interest, ranging from games to websites and applications.
+                    in Real-Time Interactive Simulation, I have a deep passion for developing anything that piques my interest, ranging from games to websites and applications.
                     I enjoy building tools to solve technical challenges for my projects and am constantly looking for new ways to further hone my craft and experience!
                 </p>
                 <p>
