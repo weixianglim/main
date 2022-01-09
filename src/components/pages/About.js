@@ -48,9 +48,8 @@ const About = forwardRef((props, ref) =>
                 <h1>About Me</h1>
                 <img src={AboutImage} alt=""></img>
                 <p>
-                    An undergraduate in my final semester at DigiPen Institute of Technology (Singapore) pursuing a Bachelors of Science in Computer Science 
-                    in Real-Time Interactive Simulation, I have a deep passion for developing anything that piques my interest, ranging from games to websites and applications.
-                    I enjoy building tools to solve technical challenges for my projects and am constantly looking for new ways to further hone my craft and experience!
+                    An aspiring Software Engineer at DigiPen Institute of Technology (Singapore), I'm currently embarking on an exciting 6-months internship with Autodesk! 
+                    I have a deep passion for developing anything that piques my interest, ranging from games to websites and applications.
                 </p>
                 <p>
                     My skillset includes:
