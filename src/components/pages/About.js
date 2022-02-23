@@ -17,6 +17,9 @@ import CssLogo from "../../images/Skillsets/css.png"
 import CsharpLogo from "../../images/Skillsets/csharp.png"
 import ImGuiLogo from "../../images/Skillsets/imgui.png"
 import JupyterLogo from "../../images/Skillsets/jupyter.png"
+import TensorflowLogo from "../../images/Skillsets/tensorflow.png"
+import KerasLogo from "../../images/Skillsets/keras.png"
+import BlockchainLogo from "../../images/Skillsets/blockchain.png"
 
 const About = forwardRef((props, ref) => 
 {
@@ -33,7 +36,10 @@ const About = forwardRef((props, ref) =>
         {src: CssLogo, text: "CSS"},
         {src: CsharpLogo, text: "C#"},
         {src: ImGuiLogo, text: "ImGui"},
-        {src: JupyterLogo, text: "Jupyter"}
+        {src: JupyterLogo, text: "Jupyter"},
+        {src: TensorflowLogo, text: "Tensorflow"},
+        {src: KerasLogo, text: "Keras"},
+        {src: BlockchainLogo, text: "Blockchain"}
     ]);
 
     // Called once on page load to always start at top of page
@@ -48,11 +54,13 @@ const About = forwardRef((props, ref) =>
                 <h1>About Me</h1>
                 <img src={AboutImage} alt=""></img>
                 <p>
-                    An aspiring Software Engineer at DigiPen Institute of Technology (Singapore), I'm currently embarking on an exciting 6-months internship with Autodesk! 
+                    I'm a Software Engineer currently embarking on an exciting 6-months internship with Autodesk! I'll be graduating from DigiPen Institute of Technology
+                    (Singapore) on June of this year with Magna Cum Laude (2nd Honor, GPA: 3.75/4.00) with a Bachelors of Science in Computer Science in Real-Time Interactive Simulation.
+                    I will be available for full-time positions then. 
                     I have a deep passion for developing anything that piques my interest, ranging from games to websites and applications.
                 </p>
                 <p>
-                    My skillset includes:
+                    My skillset / techstack includes:
                 </p>
 
                 {/* Skillsets and icons */}
