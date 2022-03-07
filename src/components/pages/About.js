@@ -55,8 +55,8 @@ const About = forwardRef((props, ref) =>
                 <img src={AboutImage} alt=""></img>
                 <p>
                     I'm a Software Engineer currently embarking on an exciting 6-months internship with Autodesk! I'll be graduating from DigiPen Institute of Technology
-                    (Singapore) on June of this year with Magna Cum Laude (2nd Honor, GPA: 3.75/4.00) with a Bachelors of Science in Computer Science in Real-Time Interactive Simulation.
-                    I will be available for full-time positions then. 
+                    (Singapore) August of this year with Magna Cum Laude (2nd Honor, GPA: 3.75/4.00) with a Bachelors of Science in Computer Science in Real-Time Interactive Simulation.
+                    My current SWE internship ends June 2022 and I will be fully available early July 2022. 
                     I have a deep passion for developing anything that piques my interest, ranging from games to websites and applications.
                 </p>
                 <p>
