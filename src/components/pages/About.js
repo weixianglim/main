@@ -20,6 +20,9 @@ import JupyterLogo from "../../images/Skillsets/jupyter.png"
 import TensorflowLogo from "../../images/Skillsets/tensorflow.png"
 import KerasLogo from "../../images/Skillsets/keras.png"
 import BlockchainLogo from "../../images/Skillsets/blockchain.png"
+import NetCoreLogo from "../../images/Skillsets/netCore.png"
+import AspNetLogo from "../../images/Skillsets/aspNet.png"
+import NodeJSLogo from "../../images/Skillsets/nodeJS.png"
 
 const About = forwardRef((props, ref) => 
 {
@@ -39,7 +42,10 @@ const About = forwardRef((props, ref) =>
         {src: JupyterLogo, text: "Jupyter"},
         {src: TensorflowLogo, text: "Tensorflow"},
         {src: KerasLogo, text: "Keras"},
-        {src: BlockchainLogo, text: "Blockchain"}
+        {src: BlockchainLogo, text: "Blockchain"},
+        {src: NodeJSLogo, text: "Node.JS"},
+        {src: NetCoreLogo, text: ".NET Core"},
+        {src: AspNetLogo, text: "ASP.NET"}
     ]);
 
     // Called once on page load to always start at top of page
