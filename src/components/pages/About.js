@@ -60,9 +60,8 @@ const About = forwardRef((props, ref) =>
                 <h1>About Me</h1>
                 <img src={AboutImage} alt=""></img>
                 <p>
-                    I'm a Software Engineer currently embarking on an exciting 6-months internship with Autodesk! I'll be graduating from DigiPen Institute of Technology
-                    (Singapore) August of this year with Magna Cum Laude (2nd Honor, GPA: 3.75/4.00) with a Bachelors of Science in Computer Science in Real-Time Interactive Simulation.
-                    My current SWE internship ends June 2022 and I will be fully available early July 2022. 
+                    I'm a Software Engineer currently working at Autodesk in the software development (AEC Design) team. I am a graduate from DigiPen Institute of Technology
+                    (Singapore) holding a Bachelors of Science in Computer Science in Real-Time Interactive Simulation with Magna Cum Laude (2nd Honors, GPA: 3.75/4.00).
                     I have a deep passion for developing anything that piques my interest, ranging from games to websites and applications.
                 </p>
                 <p>
@@ -84,7 +83,7 @@ const About = forwardRef((props, ref) =>
                     What do you do, exactly?
                 </h2>
                 <p>
-                    I am mainly specialized in C++. I do all sorts of stuff with the language, ranging 
+                    I am mainly specialized in C++, it is what I work with everyday. I do all sorts of stuff with the language, ranging 
                     from games to engines and even computer graphics. I love to venture out into other stuff as well. 
                     I adore front-end web development and have also dipped my toes into A.I. and Machine Learning with
                     high level languages like Python.
