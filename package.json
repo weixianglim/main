@@ -1,6 +1,6 @@
 {
-  "homepage": "http://weixianglim.github.io/home",
-  "name": "home",
+  "homepage": "http://weixianglim.github.io/main",
+  "name": "main",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
