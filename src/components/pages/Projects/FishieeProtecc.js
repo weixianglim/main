@@ -54,10 +54,10 @@ const FishieeProtecc = forwardRef((props, ref) =>
             <div className="teamInfo">
                 <h3>The Team</h3>
                 <p>
+                <span className="tag">Technical Lead</span>Wei Xiang Lim<br /><span className="endLine" />
                 <span className="tag">Producer</span>Darren Low Seng Tat<br /><span className="endLine" />
                 <span className="tag">Design Lead</span>Kevin Heng Zhirong<br /><span className="endLine" />
                 <span className="tag">Product Manager</span>Mohamad Shahril<br /><span className="endLine" />
-                <span className="tag">Tech Lead</span>Lim Wei Xiang<br /><span className="endLine" />
                 </p>
             </div>
 

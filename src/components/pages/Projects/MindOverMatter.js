@@ -58,11 +58,11 @@ const MindOverMatter = forwardRef((props, ref) =>
             <div className="teamInfo">
                 <h3>The Team</h3>
                 <p>
+                <span className="tag">Technical Lead</span>Wei Xiang Lim<br /><span className="endLine" />
                 <span className="tag">Producer</span>Chow Jun Hao<br /><span className="endLine" />
                 <span className="tag">Design Lead</span>Keith Wong Khai Fun<br /><span className="endLine" />
                 <span className="tag">Environment Lead</span>Aloysius Ho Chun Keen<br /><span className="endLine" />
                 <span className="tag">Animation Lead</span>Cornelius Lum Jing Yong<br /><span className="endLine" />
-                <span className="tag">Tech Lead</span>Lim Wei Xiang<br /><span className="endLine" />
                 <span className="tag">Physics Champion</span>Kevin Heng Zhirong<br /><span className="endLine" />
                 <span className="tag">Editor Champion</span>Andy Chan Kin Sum<br /><span className="endLine" />
                 <span className="tag">AI Champion</span>Yee Yi Lin<br /><span className="endLine" />

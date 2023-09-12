@@ -65,9 +65,9 @@ const Apotcalypse = forwardRef((props, ref) =>
             <div className="teamInfo">
                 <h3>The Team</h3>
                 <p>
+                <span className="tag">Technical Lead</span>Wei Xiang Lim<br /><span className="endLine" />
                 <span className="tag">Producer</span>Chow Jun Hao<br /><span className="endLine" />
                 <span className="tag">Design Lead</span>Darren Ang Jun Kai<br /><span className="endLine" />
-                <span className="tag">Tech Lead</span>Lim Wei Xiang<br /><span className="endLine" />
                 <span className="tag">Graphics Champion</span>Eric Aw Yuh Liang<br /><span className="endLine" />
                 <span className="tag">Tools Champion</span>Joel Ong Jia Quan<br /><span className="endLine" />
                 <span className="tag">A.I. Champion</span>Zenson Lim Zhan Shin<br /><span className="endLine" />

@@ -59,10 +59,10 @@ const Illan = forwardRef((props, ref) =>
             <div className="teamInfo">
                 <h3>The Team</h3>
                 <p>
+                <span className="tag">Technical Lead</span>Wei Xiang Lim<br /><span className="endLine" />
                 <span className="tag">Art Lead</span>Tan Hui Xian<br /><span className="endLine" />
                 <span className="tag">Environment Lead</span>Michael Chuang<br /><span className="endLine" />
                 <span className="tag">Character & Art</span>Yang Siya<br /><span className="endLine" />
-                <span className="tag">Tech Lead</span>Lim Wei Xiang<br /><span className="endLine" />
                 <span className="tag">Gameplay Champion</span>Bernard Fong Kai Min<br /><span className="endLine" />
                 </p>
             </div>
